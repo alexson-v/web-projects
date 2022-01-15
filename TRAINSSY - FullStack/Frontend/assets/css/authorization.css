@@ -1,0 +1,343 @@
+.ui-elements__authorization {
+    padding: 13px 0 35px 0;
+}
+
+.search-history {
+    margin: 0;
+}
+
+.bundle-block__wrapper {
+    display: flex;
+}
+
+.bundle-block__authorization {
+    background: #fff;
+    border-radius: 6px;
+    width: 100%;
+    margin-right: 30px;
+    padding: 40px;
+}
+
+.bundle-block__title {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.authorization-form__input {
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding-left: 22px;
+    margin-bottom: 20px;
+}
+
+.authorization__btn {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 5px 0 20px 0 !important;
+}
+
+.authorization-form__remember {
+    display: flex;
+}
+
+.authorization-form__remember .checkbox-label {
+    font-weight: 500;
+    width: 165px;
+}
+
+.authorization-recovery {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin: 3px 0 0 auto;
+}
+
+.authorization-recovery:hover {
+    color: #000;
+}
+
+.bundle-block__or {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.bundle-block__google-button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.google-button__logo {
+    width: 30px;
+    height: 30px;
+}
+
+.google-button__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.bundle-block__registration {
+    background: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 40px;
+}
+
+.registration-benefits {
+    font-size: 15px;
+}
+
+.registration-benefits__subtitle {
+    text-decoration: underline;
+}
+
+.registration-benefits__features-list {
+    list-style-type: square;
+    margin: 25px 0 40px 7.5px;
+}
+
+.registration-benefits__features-list li {
+    font-size: 15px;
+    line-height: 110%;
+    display: list-item;
+    margin: 0 0 15px 10px;
+}
+
+.registration__btn {
+    width: 100%;
+    height: 40px;
+    padding: 8.5px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 5px 0 0 0;
+}
+
+.popup_password-recovery {
+    position: fixed;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.popup_password-recovery.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_password-recovery.open .password-recovery_popup__body  {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+    margin: 50px 0 50px 0;
+}
+
+.password-recovery_popup__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #000;
+    transition: all 0.8s ease 0s;
+    transform: translate(0px, -100%);
+}
+
+.password-recovery_popup__content {
+    background-color: #fff;
+    color: #000;
+    width: 770px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.password-recovery_popup__content .recovery-header {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.recovery-header__image {
+    width: 33px;
+    height: 33px;
+}
+
+.recovery-header__title {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.recovery-header__close-popup {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 8px 0 0 auto;
+}
+
+.recovery-info {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.recovery-form {
+    display: flex;
+}
+
+.recovery-form__input {
+    width: 490px;
+    margin: 0;
+}
+
+.recovery-form__button {
+    width: 200px;
+    height: 35px;
+    padding: 0 !important;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0 0 0 20px;
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 991px) {
+    .bundle-block__wrapper {
+        display: block;
+    }
+    .bundle-block__authorization {
+        margin-bottom: 40px;
+    }
+    .bundle-block__authorization-content,
+    .bundle-block__registration-content {
+        margin: 0 50px 0 50px;
+    }
+    .password-recovery_popup__content {
+        width: 690px;
+    }
+}
+/* 576px - 768px */
+@media screen and (max-width: 767px) {
+    .bundle-block__authorization-content,
+    .bundle-block__registration-content {
+        margin: 0;
+    }
+    .password-recovery_popup__content {
+        width: 580px;
+    }
+    .recovery-form__button {
+        width: 275px;
+    }
+}
+/* 425px - 576px */
+@media screen and (max-width: 575px) {
+    .popup_password-recovery.open .password-recovery_popup__body {
+        margin: 0;
+    }
+    .password-recovery_popup__content {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+    .recovery-header__title {
+        width: 310px;
+    }
+    .recovery-form {
+        display: block;
+    }
+    .recovery-form .authorization-form__input {
+        width: 100%;
+        height: 38px;
+    }
+    .recovery-form__button {
+        margin: 20px 0 0 0;
+        width: 100%;
+        height: 38px;
+    }
+}
+/* 320px - 425px */
+@media screen and (max-width: 424px) {
+    .ui-elements__authorization {
+        padding: 7.5px 0 25px 0;
+    }
+    .bundle-block__authorization,
+    .bundle-block__registration {
+        padding: 25px 20px 25px 20px;
+    }
+    .bundle-block__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .authorization-form .authorization-form__input {
+        margin-bottom: 16px;
+    }
+    .authorization__btn {
+        margin: 0 0 17px 0 !important;
+    }
+    .authorization-form__remember {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .authorization-form__remember .checkbox-label {
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .authorization-form__remember .checkbox-text {
+        margin-top: 3px;
+    }
+    .authorization-recovery {
+        margin-left: 0;
+    }
+    .bundle-block__or {
+        margin: 30px 0 30px 0;
+    }
+    .google-button__title {
+        font-size: 12px;
+    }
+    .registration-benefits {
+        font-size: 13px;
+    }
+    .registration-benefits__features-list li {
+        font-size: 13px;
+    }
+    .registration-benefits__features-list {
+        margin: 20px 0 25px 7.5px;
+    }
+    .password-recovery_popup__content {
+        padding: 30px 15px 30px 15px;
+    }
+    .password-recovery_popup__content .recovery-header {
+        margin-bottom: 25px;
+    }
+    .recovery-header__title {
+        font-size: 22px;
+        width: 250px;
+    }
+    .recovery-header__close-popup {
+        margin-top: 5px;
+    }
+    .recovery-info {
+        margin-bottom: 30px;
+    }
+}

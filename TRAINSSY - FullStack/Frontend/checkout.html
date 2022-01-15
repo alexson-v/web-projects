@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/minified/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/minified/fonts.min.css">
+    <link rel="stylesheet" href="assets/css/minified/common.min.css">
+    <link rel="stylesheet" href="assets/css/minified/checkout.min.css">
+    <title>TRAINSSY - Магазин брендовой обуви</title>
+</head>
+<body>
+    <div class="lds-roller">
+        <span class="lds-inner">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </span>
+    </div>
+    <div class="menu_mobile_wrapper">
+        <nav class="menu_mobile" data-mobile_menu="1">
+            <div class="navbar_mobile_close">
+                <img src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+            </div>
+            <ul id="mobile-menu" class="navbar_mobile">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="1">Мужская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="2">Женская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="3">Одежда</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="4">Аксессуары</a></li>
+                <li><a href="#popup_cart" class="popup-cart-link">Моя корзина</a></li>
+                <li><a href="authorization.html">Мой аккаунт</a></li>
+                <li><a href="legal-info.html">Правовая информация</a></li>
+                <li><a href="help.html">Помощь</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="1">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="1">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Мужская обувь</span>
+            </div>
+            <ul id="mobile-shoes-men-cat" class="navbar_mobile">
+                <li><a href="catalogue.html">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Balenciaga</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Eastland</a></li>
+                <li><a href="#">Merrell</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Salomon</a></li>
+                <li><a href="#">Saucony</a></li>
+                <li><a href="#">Timberland</a></li>
+                <li><a href="#">Under Armour</a></li>
+                <li><a href="#">Vans</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="2">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="2">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Женская обувь</span>
+            </div>
+            <ul id="mobile-shoes-women-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Michael Kors</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Under Armour</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="3">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="3">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Одежда</span>
+            </div>
+            <ul id="mobile-clothes-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Куртки</a></li>
+                <li><a href="#">Толстовки</a></li>
+                <li><a href="#">Жилеты</a></li>
+                <li><a href="#">Брюки</a></li>
+                <li><a href="#">Ветровки</a></li>
+                <li><a href="#">Флис</a></li>
+                <li><a href="#">Джинсы</a></li>
+                <li><a href="#">Кофты</a></li>
+                <li><a href="#">Лонгсливы</a></li>
+                <li><a href="#">Поло</a></li>
+                <li><a href="#">Футболки</a></li>
+                <li><a href="#">Шорты</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="4">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="4">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Аксессуары</span>
+            </div>
+            <ul id="mobile-accessories-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Рюкзаки</a></li>
+                <li><a href="#">Сумки</a></li>
+                <li><a href="#">Часы</a></li>
+                <li><a href="#">Шарфы</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                        <div class="header-top__pickup d-flex">
+                            <div class="header-top__pickup__info">
+                                <span class="header-top__pickup__title">Самовывоз:</span>
+                                г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header-top__phone">
+                            <a href="tel:+380680799345">+38 (068) 079-93-45</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="header-top__delivery__info">Доставка по всей Украине!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 col-10">
+                        <div class="header-main__logo">
+                            <a href="index.html">
+                                <img src="assets/img/common-icons_svg/logo-black.svg" alt="TRAINSSY">
+                                <div class="caption">Магазин брендовой обуви</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 nav__main-md">
+                        <nav class="nav__main">
+                            <ul class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                            <div id="openFullMenuBtn" class="nav__main__fullopen">
+                                <img src="assets/img/common-icons_svg/dropdown-menu-black.svg" alt="...">
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-12 header-main__phonenumber-md">
+                        <div class="header-main__phonenumber">
+                            <a href="tel:+380680799345" class="header-main__phone">+38 (068) 079-93-45</a>
+                            <div class="header-main__phone-caption">Доставка по всей Украине!</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-2 offset-md-0 col-sm-2 offset-sm-1 col-3 offset-1 side-menu_col">
+                        <nav class="side-menu">
+                            <ul class="side-menu__navbar d-flex">
+                                <li class="side-menu__navbar__wrapper d-flex">
+                                    <a href="#popup_cart" class="popup-cart-link">
+                                        <img class="navbar__wrapper__basket-icon" src="assets/img/common-icons_svg/basket-disabled-icon.svg" alt="Моя корзина">
+                                    </a>
+                                    <div class="wrapper__basket-counter">
+                                        <div class="wrapper__basket-counter__ellipse disabled">
+                                            <p class="basket-counter__ellipse__count-num general">4</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <a href="authorization.html">
+                                        <img class="navbar__account-icon" src="assets/img/common-icons_svg/account-icon.svg" alt="Мой аккаунт">
+                                    </a>
+                                    <div class="navbar__authorization-link">
+                                        <p class="navbar__authorization-link__caption">Авторизация</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-1 offset-md-1 col-sm-2 offset-sm-2 col-2 offset-0 hamburger-menu">
+                        <div class="header-main__hamburger-menu" data-mobile_menu="1">
+                            <img src="assets/img/common-icons_svg/hamburger-menu.svg" alt="Открыть меню">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="full-menu">
+        <div id="openFullMenu" class="header_full_menu_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header_full_menu">
+                            <div class="header_nav_full">
+                                <ul id="mega-menu" class="header_full_navbar">
+                                    <li><a href="#">Смотреть всё</a></li>
+                                    <li><a href="#">Новинки</a></li>
+                                    <li><a href="#">Распродажа</a></li>
+                                    <li><a href="catalogue.html">Мужская обувь</a></li>
+                                    <li><a href="#">Женская обувь</a></li>
+                                    <li><a href="#">Одежда</a></li>
+                                    <li><a href="#">Аксессуары</a></li>
+                                    <li><a href="legal-info.html">Правовая информация</a></li>
+                                    <li><a href="help.html">Помощь</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10">
+                        <h4 class="categories_title">Популярные категории</h4>
+                        <div class="categories_preview">
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/nike-preview.webp');">
+                                <div class="title">
+                                    <h5>Nike</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/adidas-preview.webp');">
+                                <div class="title">
+                                    <h5>Adidas</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/new-balance-preview.webp');">
+                                <div class="title">
+                                    <h5>New Balance</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/martens-preview.webp');">
+                                <div class="title">
+                                    <h5>Dr. Martens</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal_line"></div>
+        </div>
+    </section>
+    <section class="main-block__purchase">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h2 class="purchase-title">Оформление заказа</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="gradual-form">
+                        <div class="gradual-form__progressbar">
+                            <div class="progress-level active" data-checkout="1">1</div>
+                            <hr class="progressbar-line active" data-checkout="1">
+                            <div class="progress-level" data-checkout="2">2</div>
+                            <hr class="progressbar-line" data-checkout="2">
+                            <div class="progress-level" data-checkout="3">3</div>
+                            <div class="line-wrapper">
+                                <hr class="progressbar-line" data-checkout="3">
+                                <i class="progressbar-arrow" data-checkout="3"></i>
+                            </div>
+                            <div class="progress-level finish" id="progressLevel4"></div>
+                        </div>
+                        <div class="gradual-form__tasks" id="customer_details">
+                            <div class="gradual-form__task active" data-checkout="1">
+                                <div class="heading">
+                                    <div class="progress-level active">1</div>
+                                    <h3 class="title">Ваши контактные данные</h3>
+                                </div>
+                                <div class="form__task-1">
+                                    <input type="text" class="input-task-1" placeholder="Ваша фамилия">
+                                    <div class="inputs-wrapper">
+                                        <input type="text" class="input-task-1" placeholder="Имя">
+                                        <input type="text" class="input-task-1" placeholder="Отчество">
+                                    </div>
+                                    <input type="tel" class="input-task-1" id="shipping_phone" placeholder="Номер телефона" autocomplete="tel">
+                                    <input type="email" class="input-task-1" placeholder="E-mail" autocomplete="email">
+                                    <a class="btn checkout-btn" data-checkout="2">Дальше</a>
+                                </div>
+                            </div>
+                            <div class="gradual-form__task" data-checkout="2">
+                                <div class="heading">
+                                    <div class="progress-level active">2</div>
+                                    <h3 class="title">Доставка</h3>
+                                </div>
+                                <div class="form__task-2">
+                                    <div id="shipping_method" class="delivery_way-body">
+                                        <h6 class="field-title">Способ доставки</h6>
+                                        <div class="delivery_way-option">
+                                            <label for="shipping_method_0_nova_poshta_shipping-4" class="checkbox-label">
+                                                <input class="checkbox real shipping_method" id="shipping_method_0_nova_poshta_shipping-4" type="radio" checked="checked">
+                                                <span class="checkbox fake"></span>
+                                                <span class="checkbox-text">Доставка в отделение “Новая Почта”</span>
+                                            </label>
+                                            <p class="delivery-price">Стоимость доставки: выберите город</p>
+                                        </div>
+                                        <div class="delivery_way-option">
+                                            <label for="shipping_method_0_local_pickup-2" class="checkbox-label">
+                                                <input class="checkbox real shipping_method" id="shipping_method_0_local_pickup-2" type="radio">
+                                                <span class="checkbox fake"></span>
+                                                <span class="checkbox-text">Самовывоз (г. Киев, ул. Сагайдачного 8)</span>
+                                            </label>
+                                            <p class="delivery-price">Стоимость доставки: бесплатно</p>
+                                        </div>
+                                    </div>
+                                    <div class="nova-poshta-fields">
+                                        <h3>Адрес доставки</h3>
+                                        <div>
+                                            <div class="ui-select">
+                                                <div class="value">
+                                                    <span>На отделение</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                                                        <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51, 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6, 1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8, 1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="ui-select">
+                                                <div class="value">
+                                                    <span>Город</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                                                        <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51, 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6, 1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8, 1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="ui-select">
+                                                <div class="value">
+                                                    <span>Отделение</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                                                        <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51, 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6, 1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8, 1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btn checkout-btn" data-checkout="3">Дальше</a>
+                                </div>
+                            </div>
+                            <div class="gradual-form__task" data-checkout="3">
+                                <div class="heading">
+                                    <div class="progress-level active">3</div>
+                                    <h3 class="title">Оплата</h3>
+                                </div>
+                                <div class="form__task-3" id="payment">
+                                    <label class="checkbox-label">
+                                        <input class="checkbox real" type="radio" checked="checked">
+                                        <span class="checkbox fake"></span>
+                                        <span class="checkbox-text">Оплата при получении</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input class="checkbox real" type="radio">
+                                        <span class="checkbox fake"></span>
+                                        <span class="checkbox-text">Оплата картой на сайте, Apple/Google Pay</span>
+                                    </label>
+                                    <a class="btn payment">Дальше</a>
+                                </div>
+                            </div>
+                            <div class="notifications" id="notifTasks">
+                                <div class="notification">
+                                    <img src="assets/img/exclamation-icon.svg" class="notification-icon" alt="!">
+                                    <p class="notification-text">Настоятельно рекомендуем проверять введенные Вами данные!</p>
+                                </div>
+                                <div class="notification">
+                                    <img src="assets/img/exclamation-icon.svg" class="notification-icon" alt="!">
+                                    <p class="notification-text">Возврат/обмен товара возможен в течение 14 дней после покупки.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5">
+                    <div class="summary-info">
+                        <div class="order-details">
+                            <div class="heading">
+                                <img src="assets/img/common-icons_svg/basket-icon.svg" class="heading-icon" alt="Корзина">
+                                <h3 class="heading-title">Состав заказа</h3>
+                            </div>
+                            <div class="added-products">
+                                <div class="added-product">
+                                    <a href="product.html">
+                                        <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="content-wrapper">
+                                        <a href="product.html" class="product-name">Salomon Speedcross 3 - чёрный, 41 (3410855)</a>
+                                        <div class="row-bottom">
+                                            <p class="product-price__one">3 150 грн</p>
+                                            <div class="qty-wrapper">
+                                                <div class="qty-block">1</div>
+                                                <p class="product-amount__text">шт.</p>
+                                            </div>
+                                            <p class="product-price__summary">3 150 грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="added-product">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="content-wrapper">
+                                        <a href="#" class="product-name">Salomon Speedcross Offroad - чёрный, 42,5 (414563)</a>
+                                        <div class="row-bottom">
+                                            <p class="product-price__one">3 500 грн</p>
+                                            <div class="qty-wrapper">
+                                                <div class="qty-block">1</div>
+                                                <p class="product-amount__text">шт.</p>
+                                            </div>
+                                            <p class="product-price__summary">3 500 грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="added-product">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="content-wrapper">
+                                        <a href="#" class="product-name">Salomon XT-6 - коричневый, 42,5 (414547)</a>
+                                        <div class="row-bottom">
+                                            <p class="product-price__one">4 500 грн</p>
+                                            <div class="qty-wrapper">
+                                                <div class="qty-block">1</div>
+                                                <p class="product-amount__text">шт.</p>
+                                            </div>
+                                            <p class="product-price__summary">4 500 грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="added-product">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="content-wrapper">
+                                        <a href="#" class="product-name">Nike Air Max 95 - чёрный, 42,5 (DC9412-001)</a>
+                                        <div class="row-bottom">
+                                            <p class="product-price__one">4 500 грн</p>
+                                            <div class="qty-wrapper">
+                                                <div class="qty-block">1</div>
+                                                <p class="product-amount__text">шт.</p>
+                                            </div>
+                                            <p class="product-price__summary">4 500 грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="promo-code active" id="promoCodePurchase">
+                            <div class="heading">
+                                <img src="assets/img/discount-icon.svg" class="heading-icon" alt="Скидка">
+                                <h3 class="heading-title">Получить скидку</h3>
+                            </div>
+                            <div class="form__promocode">
+                                <input type="text" class="input-promocode" placeholder="Ввести промокод">
+                                <button type="button" class="btn">Активировать</button>
+                            </div>
+                        </div>
+                        <hr class="green-line active" id="cartSmallLine">
+                        <div class="total-price">
+                            <div class="heading">
+                                <img src="assets/img/wallet-icon.svg" class="heading-icon" alt="Итого">
+                                <h3 class="heading-title">Итого к оплате</h3>
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="info-row cart-subtotal">
+                                    <p class="info-row__heading">Оплата за товар</p>
+                                    <span>15 650 грн</span>
+                                </div>
+                                <hr class="total-price__line">
+                                <div class="info-row">
+                                    <p class="info-row__heading">Скидка</p>
+                                    <span class="cart-discount">0,00 грн</span>
+                                </div>
+                                <hr class="total-price__line">
+                                <div class="info-row">
+                                    <p class="info-row__heading">Доставка</p>
+                                    <span>49,00 грн</span>
+                                </div>
+                                <hr class="total-price__line">
+                                <div class="info-row">
+                                    <p class="info-row__heading">Вместе к оплате</p>
+                                    <span class="total order-total">15 699 грн</span>
+                                </div>
+                                <button type="submit" class="btn finish">Подтвердить заказ</button>
+                                <p class="offer-terms_notice">
+                                    Подтверждая заказ, вы соглашаетесь с <a href="legal-info.html" target="_blank">условиями публичной оферты и политики конфиденциальности</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-block__purchase purchase-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h2 class="purchase-title">Оформление заказа</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="gradual-form">
+                        <div class="gradual-form__progressbar">
+                            <div class="progress-level active">1</div>
+                            <hr class="progressbar-line active">
+                            <div class="progress-level active">2</div>
+                            <hr class="progressbar-line active">
+                            <div class="progress-level active">3</div>
+                            <div class="line-wrapper">
+                                <hr class="progressbar-line active">
+                                <i class="progressbar-arrow active"></i>
+                            </div>
+                            <div class="progress-level finish active" id="progressLevel4"></div>
+                        </div>
+                        <div class="gradual-form__tasks" id="customer_details">
+                            <div class="gradual-form__task active" style="display: block;">
+                                <div class="heading">
+                                    <div class="progress-level content finish"></div>
+                                    <h3 class="title">Заказ успешно оформлен</h3>
+                                </div>
+                                <div class="form__task-4">
+                                    <p class="finish-notification">Ожидайте СМС с номером накладной.</p>
+                                    <p class="finish-notification">Мы можем позвонить Вам для уточнения полученных данных.</p>
+                                    <a href="index.html" class="btn">Вернуться на главную <span>страницу</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5">
+                    <div class="summary-info receipt">
+                        <div class="order-receipt">
+                            <div class="heading">
+                                <img src="assets/img/common-icons_svg/basket-icon.svg" class="heading-icon" alt="Корзина">
+                                <h3 class="heading-title">Детали заказа</h3>
+                            </div>
+                            <div class="order-overview">
+                                <div class="string-wrapper">
+                                    Номер заказа:
+                                    <strong>890</strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Получатель:
+                                    <strong>Олексеенко Владислав</strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Номер телефона:
+                                    <strong>+38 (068) 079 93-45</strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Подытог:
+                                    <strong>15 650 грн</strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Доставка:
+                                    <strong>
+                                        49 грн (Новая почта)
+                                        <br>
+                                        Киев
+                                        <br>
+                                        Отделение № 1: ул. Пироговский путь, 135
+                                    </strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Метод оплаты:
+                                    <strong>Оплата при получении</strong>
+                                </div>
+                                <div class="string-wrapper">
+                                    Итого:
+                                    <strong>15 699 грн</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="column-first">
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img class="header_logo_image" src="assets/img/common-icons_svg/logo-white.svg" alt="TRAINSSY">
+                            </a>
+                            <p class="footer_logo_text">Магазин брендовой обуви</p>
+                        </div>
+                        <div class="btn_up tablet">
+                            <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                        </div>
+                        <div class="footer_nav">
+                            <ul id="primary-menu" class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                        </div>
+                        <div class="elements-wrapper">
+                            <a class="btn_up desktop">
+                                <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                            </a>
+                            <div class="footer_phonenumber">
+                                <a href="tel:+380680799345" class="footer_phone">+38 (068) 079-93-45</a>
+                                <div class="footer_phone_text">Доставка по всей Украине!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-second">
+                        <div class="elements-wrapper_1">
+                            <a href="https://www.instagram.com/vlad.alexson/" target="_blank" rel="noreferrer">
+                                <img src="assets/img/common-icons_svg/inst-icon-white.svg" class="inst_icon" alt="Instagram">
+                            </a>
+                            <div class="footer_pickup">
+                                <p class="title">Самовывоз:</p>
+                                <p class="footer_schedule">г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости</p>
+                            </div>
+                        </div>
+                        <div class="bank-options">
+                            <img src="assets/img/common-icons_svg/mastercard-icon.svg" alt="Mastercard">
+                            <img src="assets/img/common-icons_svg/visa-icon.svg" alt="Visa">
+                        </div>
+                        <div class="btn_up mobile">
+                            <img src="assets/img/common-icons_svg/button-up.svg" class="footer_button_up" alt="^">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/minified/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/minified/jquery.maskedinput.min.js"></script>
+    <script src="assets/js/minified/SmoothScroll.min.js"></script>
+    <script src="assets/js/minified/common.min.js"></script>
+    <script src="assets/js/minified/checkout.min.js"></script>
+</body>
+</html>

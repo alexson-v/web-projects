@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/minified/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/minified/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/minified/fonts.min.css">
+    <link rel="stylesheet" href="assets/css/minified/common.min.css">
+    <link rel="stylesheet" href="assets/css/minified/catalogue.min.css">
+    <title>TRAINSSY - Магазин брендовой обуви</title>
+</head>
+<body>
+    <div class="lds-roller">
+        <span class="lds-inner">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </span>
+    </div>
+    <div class="menu_mobile_wrapper">
+        <nav class="menu_mobile" data-mobile_menu="1">
+            <div class="navbar_mobile_close">
+                <img src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+            </div>
+            <ul id="mobile-menu" class="navbar_mobile">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="1">Мужская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="2">Женская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="3">Одежда</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="4">Аксессуары</a></li>
+                <li><a href="#popup_cart" class="popup-cart-link">Моя корзина</a></li>
+                <li><a href="authorization.html">Мой аккаунт</a></li>
+                <li><a href="legal-info.html">Правовая информация</a></li>
+                <li><a href="help.html">Помощь</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="1">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="1">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Мужская обувь</span>
+            </div>
+            <ul id="mobile-shoes-men-cat" class="navbar_mobile">
+                <li><a href="catalogue.html">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Balenciaga</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Eastland</a></li>
+                <li><a href="#">Merrell</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Salomon</a></li>
+                <li><a href="#">Saucony</a></li>
+                <li><a href="#">Timberland</a></li>
+                <li><a href="#">Under Armour</a></li>
+                <li><a href="#">Vans</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="2">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="2">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Женская обувь</span>
+            </div>
+            <ul id="mobile-shoes-women-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Michael Kors</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Under Armour</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="3">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="3">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Одежда</span>
+            </div>
+            <ul id="mobile-clothes-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Куртки</a></li>
+                <li><a href="#">Толстовки</a></li>
+                <li><a href="#">Жилеты</a></li>
+                <li><a href="#">Брюки</a></li>
+                <li><a href="#">Ветровки</a></li>
+                <li><a href="#">Флис</a></li>
+                <li><a href="#">Джинсы</a></li>
+                <li><a href="#">Кофты</a></li>
+                <li><a href="#">Лонгсливы</a></li>
+                <li><a href="#">Поло</a></li>
+                <li><a href="#">Футболки</a></li>
+                <li><a href="#">Шорты</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="4">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="4">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Аксессуары</span>
+            </div>
+            <ul id="mobile-accessories-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Рюкзаки</a></li>
+                <li><a href="#">Сумки</a></li>
+                <li><a href="#">Часы</a></li>
+                <li><a href="#">Шарфы</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                        <div class="header-top__pickup d-flex">
+                            <div class="header-top__pickup__info">
+                                <span class="header-top__pickup__title">Самовывоз:</span>
+                                г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header-top__phone">
+                            <a href="tel:+380680799345">+38 (068) 079-93-45</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="header-top__delivery__info">Доставка по всей Украине!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 col-10">
+                        <div class="header-main__logo">
+                            <a href="index.html">
+                                <img src="assets/img/common-icons_svg/logo-black.svg" alt="TRAINSSY">
+                                <div class="caption">Магазин брендовой обуви</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 nav__main-md">
+                        <nav class="nav__main">
+                            <ul class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                            <div id="openFullMenuBtn" class="nav__main__fullopen">
+                                <img src="assets/img/common-icons_svg/dropdown-menu-black.svg" alt="...">
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-12 header-main__phonenumber-md">
+                        <div class="header-main__phonenumber">
+                            <a href="tel:+380680799345" class="header-main__phone">+38 (068) 079-93-45</a>
+                            <div class="header-main__phone-caption">Доставка по всей Украине!</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-2 offset-md-0 col-sm-2 offset-sm-1 col-3 offset-1 side-menu_col">
+                        <nav class="side-menu">
+                            <ul class="side-menu__navbar d-flex">
+                                <li class="side-menu__navbar__wrapper d-flex">
+                                    <a href="#popup_cart" class="popup-cart-link">
+                                        <img class="navbar__wrapper__basket-icon" src="assets/img/common-icons_svg/basket-icon.svg" alt="Моя корзина">
+                                    </a>
+                                    <div class="wrapper__basket-counter">
+                                        <div class="wrapper__basket-counter__ellipse">
+                                            <p class="basket-counter__ellipse__count-num general">4</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <a href="authorization.html">
+                                        <img class="navbar__account-icon" src="assets/img/common-icons_svg/account-icon.svg" alt="Мой аккаунт">
+                                    </a>
+                                    <div class="navbar__authorization-link">
+                                        <p class="navbar__authorization-link__caption">Авторизация</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-1 offset-md-1 col-sm-2 offset-sm-2 col-2 offset-0 hamburger-menu">
+                        <div class="header-main__hamburger-menu" data-mobile_menu="1">
+                            <img src="assets/img/common-icons_svg/hamburger-menu.svg" alt="Открыть меню">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="full-menu">
+        <div id="openFullMenu" class="header_full_menu_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header_full_menu">
+                            <div class="header_nav_full">
+                                <ul id="mega-menu" class="header_full_navbar">
+                                    <li><a href="#">Смотреть всё</a></li>
+                                    <li><a href="#">Новинки</a></li>
+                                    <li><a href="#">Распродажа</a></li>
+                                    <li><a href="catalogue.html">Мужская обувь</a></li>
+                                    <li><a href="#">Женская обувь</a></li>
+                                    <li><a href="#">Одежда</a></li>
+                                    <li><a href="#">Аксессуары</a></li>
+                                    <li><a href="legal-info.html">Правовая информация</a></li>
+                                    <li><a href="help.html">Помощь</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10">
+                        <h4 class="categories_title">Популярные категории</h4>
+                        <div class="categories_preview">
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/nike-preview.webp');">
+                                <div class="title">
+                                    <h5>Nike</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/adidas-preview.webp');">
+                                <div class="title">
+                                    <h5>Adidas</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/new-balance-preview.webp');">
+                                <div class="title">
+                                    <h5>New Balance</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/martens-preview.webp');">
+                                <div class="title">
+                                    <h5>Dr. Martens</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal_line"></div>
+        </div>
+    </section>
+    <section class="advert-banner">
+        <div class="container">
+            <div class="row">
+                <a href="#">
+                    <div class="col-xl-12">
+                        <img class="catalogue_banner" src="assets/img/category-preview/catalogue-banner.webp" alt="Рекламный баннер">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="catalogue_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 navbar_catalogue__unactive">
+                    <ul class="navbar_catalogue">
+                        <li><a href="catalogue.html">Смотреть всё (15)</a></li>
+                        <li><a class="option_green" href="catalogue.html">Новые поступления (15)</a></li>
+                        <li><a class="option_green" href="#">Распродажа (0)</a></li>
+                        <li><a href="catalogue.html">Мужская обувь (15)</a></li>
+                        <ul class="subcategory">
+                            <li><a href="#">Adidas (0)</a></li>
+                            <li><a href="#">Balenciaga (0)</a></li>
+                            <li><a href="#">Converse (0)</a></li>
+                            <li><a href="#">Dr. Martens (0)</a></li>
+                            <li><a href="#">Eastland (0)</a></li>
+                            <li><a href="#">Merrell (1)</a></li>
+                            <li><a href="#">New Balance (1)</a></li>
+                            <li><a href="#">Nike (3)</a></li>
+                            <li><a href="#">Reebok (0)</a></li>
+                            <li><a href="#">Salomon (6)</a></li>
+                            <li><a href="#">Saucony (2)</a></li>
+                            <li><a href="#">Timberland (2)</a></li>
+                            <li><a href="#">Under Armour (0)</a></li>
+                            <li><a href="#">Vans (0)</a></li>
+                        </ul>
+                        <li><a href="#">Женская обувь (0)</a></li>
+                        <ul class="subcategory">
+                            <li><a href="#">Adidas (0)</a></li>
+                            <li><a href="#">Converse (0)</a></li>
+                            <li><a href="#">Dr. Martens (0)</a></li>
+                            <li><a href="#">Michael Kors (0)</a></li>
+                            <li><a href="#">New Balance (0)</a></li>
+                            <li><a href="#">Nike (0)</a></li>
+                            <li><a href="#">Reebok (0)</a></li>
+                            <li><a href="#">Under Armour (0)</a></li>
+                        </ul>
+                        <li><a href="#">Одежда (0)</a></li>
+                        <ul class="subcategory">
+                            <li><a href="#">Куртки (0)</a></li>
+                            <li><a href="#">Толстовки (0)</a></li>
+                            <li><a href="#">Жилеты (0)</a></li>
+                            <li><a href="#">Брюки (0)</a></li>
+                            <li><a href="#">Ветровки (0)</a></li>
+                            <li><a href="#">Флис (0)</a></li>
+                            <li><a href="#">Джинсы (0)</a></li>
+                            <li><a href="#">Кофты (0)</a></li>
+                            <li><a href="#">Лонгсливы (0)</a></li>
+                            <li><a href="#">Поло (0)</a></li>
+                            <li><a href="#">Футболки (0)</a></li>
+                            <li><a href="#">Шорты (0)</a></li>
+                        </ul>
+                        <li><a href="#">Аксессуары (0)</a></li>
+                        <ul class="subcategory">
+                            <li><a href="#">Рюкзаки (0)</a></li>
+                            <li><a href="#">Сумки (0)</a></li>
+                            <li><a href="#">Часы (0)</a></li>
+                            <li><a href="#">Шарфы (0)</a></li>
+                        </ul>
+                        <li><a href="#">Средства для ухода (0)</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-12">
+                    <a href="#popup_search" class="popup-search-link popup-search-link__small">
+                        <div class="popup-search-link__content-wrapper d-flex">
+                            <p class="search-button__text">Искать товар</p>
+                            <img src="assets/img/common-icons_svg/push-to-search-btn_small.svg" class="search-button__smallimg" alt="<">
+                        </div>
+                        <hr class="search-button__line">
+                    </a>
+                    <div class="catalogue_userbar d-flex">
+                        <div class="userbar_block_left-wrapper">
+                            <div class="search-history">
+                                <a href="index.html">Главная</a>
+                                <i class="search-arrow" alt=">"></i>
+                                <a href="#">Смотреть всё</a>
+                                <i class="search-arrow" alt=">"></i>
+                                <a>Мужская обувь</a>
+                            </div>
+                            <h4 class="category__title">Мужская обувь</h4>
+                            <div class="filter_open-wrapper__small d-flex">
+                                <div class="category_goods-value">Представлено 15 товаров</div>
+                                <a href="#" class="category__filters__small" data-mobile_filters="1">
+                                    <div class="category_filters-title__small" data-mobile_filters="1">Фильтровать</div>
+                                    <img src="assets/img/filter-icon.svg" alt="X">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="userbar_block_right-wrapper ml-auto">
+                            <a href="#popup_search" class="search-popup_link popup-search-link">
+                                <img src="assets/img/common-icons_svg/push-to-search-btn.svg" alt="Искать товар">
+                            </a>
+                            <div class="category_filters-wrapper">
+                                <div class="category_filters-title ml-auto">Фильтровать:</div>
+                                <div class="category_filters d-flex">
+                                    <div class="category_filters-size d-flex open_filter" data-filter="1">
+                                        <p>Размер</p>
+                                        <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="category_dropdown-arrow" alt="v" data-filter="1">
+                                    </div>
+                                    <div class="category_filters-value d-flex open_filter" data-filter="2">
+                                        <p>Цена</p>
+                                        <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="category_dropdown-arrow" alt="v" data-filter="2">
+                                    </div>
+                                    <div class="category_filters-color d-flex open_filter" data-filter="3">
+                                        <p>Цвет</p>
+                                        <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="category_dropdown-arrow" alt="v" data-filter="3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category_filters-size__dropdown category_filter_js" data-filter="1">
+                            <div class="dropdown-checkbox__family desktop">
+                                <ul>
+                                    <li>
+                                        <input id="size-option-1" type="checkbox">
+                                        <label for="size-option-1">40</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-2" type="checkbox">
+                                        <label for="size-option-2">40,5</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-3" type="checkbox">
+                                        <label for="size-option-3">41</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-4" type="checkbox">
+                                        <label for="size-option-4">41,5</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-5" type="checkbox">
+                                        <label for="size-option-5">42</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-6" type="checkbox">
+                                        <label for="size-option-6">42,5</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-7" type="checkbox">
+                                        <label for="size-option-7">43</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-8" type="checkbox">
+                                        <label for="size-option-8">43,5</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-9" type="checkbox">
+                                        <label for="size-option-9">44</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-10" type="checkbox">
+                                        <label for="size-option-10">44,5</label>
+                                    </li>
+                                    <li>
+                                        <input id="size-option-11" type="checkbox">
+                                        <label for="size-option-11">45</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="category_filter__btn">Применить</button>
+                        </div>
+                        <div class="category_filters-value__dropdown category_filter_js" data-filter="2">
+                            <div id="filter-dropdown__slider"></div>
+                            <button class="category_filter__btn">Применить</button>
+                        </div>
+                        <div class="category_filters-color__dropdown category_filter_js" data-filter="3">
+                            <div class="dropdown-checkbox__family desktop">
+                                <ul>
+                                    <li>
+                                        <input id="color-option-1" type="checkbox">
+                                        <label for="color-option-1">чёрный</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-2" type="checkbox">
+                                        <label for="color-option-2">серый</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-3" type="checkbox">
+                                        <label for="color-option-3">белый</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-4" type="checkbox">
+                                        <label for="color-option-4">красный</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-5" type="checkbox">
+                                        <label for="color-option-5">синий</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-6" type="checkbox">
+                                        <label for="color-option-6">зелёный</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-7" type="checkbox">
+                                        <label for="color-option-7">фиолетовый</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-8" type="checkbox">
+                                        <label for="color-option-8">жёлтый</label>
+                                    </li>
+                                    <li>
+                                        <input id="color-option-9" type="checkbox">
+                                        <label for="color-option-9">красно-синий</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="category_filter__btn">Применить</button>
+                        </div>
+                    </div>
+                    <hr class="category_userbar-line">
+                    <div class="category_showcase">
+                        <div class="product-card">
+                            <a href="product.html">
+                                <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon Speedcross 3</h5>
+                                <div class="bottom">
+                                    <h5>3 150 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon Speedcross Offroad</h5>
+                                <div class="bottom">
+                                    <h5>3 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-7.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Nike Air Max 95</h5>
+                                <div class="bottom">
+                                    <h5>4 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Nike Air Max 95</h5>
+                                <div class="bottom">
+                                    <h5>4 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-9.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon X Crest GTX</h5>
+                                <div class="bottom">
+                                    <h5>3 000 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon XT-6</h5>
+                                <div class="bottom">
+                                    <h5>4 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-11.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon Speedcross 3</h5>
+                                <div class="bottom">
+                                    <h5>3 150 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-12.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Salomon XT-RUSH</h5>
+                                <div class="bottom">
+                                    <h5>3 900 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-13.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Timberland Field trekker</h5>
+                                <div class="bottom">
+                                    <h5>2 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-14.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Timberland Squall canyon</h5>
+                                <div class="bottom">
+                                    <h5>3 000 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-15.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Merrell Moab 2 WP</h5>
+                                <div class="bottom">
+                                    <h5>2 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-16.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Nike KD14</h5>
+                                <div class="bottom">
+                                    <h5>4 000 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-17.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">New Balance 993</h5>
+                                <div class="bottom">
+                                    <h5>5 000 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-18.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Saucony Ride 14</h5>
+                                <div class="bottom">
+                                    <h5>3 750 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <img src="assets/img/product-images/product-image-19.webp" alt="Главное изображение товара">
+                            </a>
+                            <div class="details-wrapper">
+                                <h5 class="product-name">Saucony Endorphin Speed 2</h5>
+                                <div class="bottom">
+                                    <h5>4 500 грн</h5>
+                                </div>
+                                <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category_no-products">
+                        <h5 class="category_no-products__alert">
+                            К большому сожалению, товары этой категории пока что отсутствуют.
+                            <br><br>
+                            Следите за новыми поступлениями в нашем Instagram!
+                        </h5>
+                        <a href="https://www.instagram.com/trainssy/" target="_blank" class="category_no-products__alert-highlighter">
+                            <img src="assets/img/inst-cta.webp" alt="Перейти в Instagram магазина">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="column-first">
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img class="header_logo_image" src="assets/img/common-icons_svg/logo-white.svg" alt="TRAINSSY">
+                            </a>
+                            <p class="footer_logo_text">Магазин брендовой обуви</p>
+                        </div>
+                        <div class="btn_up tablet">
+                            <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                        </div>
+                        <div class="footer_nav">
+                            <ul id="primary-menu" class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                        </div>
+                        <div class="elements-wrapper">
+                            <a class="btn_up desktop">
+                                <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                            </a>
+                            <div class="footer_phonenumber">
+                                <a href="tel:+380680799345" class="footer_phone">+38 (068) 079-93-45</a>
+                                <div class="footer_phone_text">Доставка по всей Украине!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-second">
+                        <div class="elements-wrapper_1">
+                            <a href="https://www.instagram.com/vlad.alexson/" target="_blank" rel="noreferrer">
+                                <img src="assets/img/common-icons_svg/inst-icon-white.svg" class="inst_icon" alt="Instagram">
+                            </a>
+                            <div class="footer_pickup">
+                                <p class="title">Самовывоз:</p>
+                                <p class="footer_schedule">г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости</p>
+                            </div>
+                        </div>
+                        <div class="bank-options">
+                            <img src="assets/img/common-icons_svg/mastercard-icon.svg" alt="Mastercard">
+                            <img src="assets/img/common-icons_svg/visa-icon.svg" alt="Visa">
+                        </div>
+                        <div class="btn_up mobile">
+                            <img src="assets/img/common-icons_svg/button-up.svg" class="footer_button_up" alt="^">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <div id="navbar_ui_mobile" class="navbar_ui_mobile">
+        <div class="navbar_ui__icons-wrapper">
+            <a class="btn_up">
+                <img class="navbar__anchor-icon navbar_ui_icon" src="assets/img/navbar_anchor-icon.svg" alt="^">
+            </a>
+            <a href="#" class="category__filters__small navbar" data-mobile_filters="1">
+                <img class="navbar__filter-icon navbar_ui_icon" src="assets/img/filter-icon.svg" alt="Фильтровать">
+            </a>
+            <a href="#popup_search" class="popup-search-link">
+                <img class="navbar__search-icon navbar_ui_icon" src="assets/img/common-icons_svg/push-to-search-btn_small.svg" alt="Поиск">
+            </a>
+            <a href="#popup_cart" class="popup-cart-link navbar_ui_icon d-flex">
+                <img class="navbar__basket-icon" src="assets/img/common-icons_svg/basket-icon.svg" alt="Корзина">
+                <div class="wrapper__basket-counter mobile-navbar">
+                    <div class="wrapper__basket-counter__ellipse mobile-navbar">
+                        <p class="basket-counter__ellipse__count-num navbar_ui">4</p>
+                    </div>
+                </div>
+            </a>
+            <img class="navbar__hamburger-icon navbar_ui_icon header-main__hamburger-menu" data-mobile_menu="1" src="assets/img/common-icons_svg/hamburger-menu.svg" alt="Открыть меню">
+        </div>
+    </div>
+    <div id="popup_search" class="popup_search">
+        <div class="search-popup__body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="popup_search__close_mobile close-popup-search">
+                            <img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть">
+                        </a>
+                    </div>
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                        <div class="search-popup_big-input_wrapper d-flex">
+                            <input type="text" placeholder="Поиск" class="search-popup_white-input" value="Salomon">
+                            <div class="search-popup_input-btn">
+                                <img src="assets/img/common-icons_svg/lens-icon.svg" alt="Искать">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                        <div class="search-popup__result">
+                            <ul>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon Speedcross 3</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00221</p>
+                                            <h6>3 150 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon Speedcross Offroad</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00220</p>
+                                            <h6>3 500 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-9.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon X Crest GTX</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00214</p>
+                                            <h6>3 000 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon XT-6</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00213</p>
+                                            <h6>4 500 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="see-more">Посмотреть все результаты</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_cart" class="popup_cart">
+        <div class="cart_popup__body">
+            <div class="cart_popup__content">
+                <div class="title_block">
+                    <img class="popup_cart-icon" src="assets/img/common-icons_svg/basket-icon.svg" alt="Иконка пакета">
+                    <h3 class="popup_cart-title">Корзина</h3>
+                    <a class="popup_cart__close close-popup-cart">
+                        <img class="search-popup__close-button" src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+                    </a>
+                </div>
+                <div class="goods-added__cart">
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="product.html">
+                                    <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="product.html" class="good-in-cart__name">Salomon Speedcross 3 - чёрный, 41 (3410855)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00221</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">3 150 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">3 150 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Salomon Speedcross Offroad - чёрный, 42,5 (414563)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00220</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">3 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">3 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Salomon XT-6 - коричневый, 42,5 (414547)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00213</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">4 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">4 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Nike Air Max 95 - чёрный, 42,5 (DC9412-001)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00215</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">4 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">4 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                </div>
+                <div class="summary_block">
+                    <div class="summary_block__title">
+                        <h3 class="summary_block__title-total">Итого:</h3>
+                        <div class="summary-block__title-sum">15 650 грн</div>
+                    </div>
+                    <a href="checkout.html" class="btn"><span>Оформить заказ</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_filtersMobile" class="popup_filters__mobile">
+        <div class="filters_popup_body" data-mobile_filters="1">
+            <img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="filters-popup__close-button" alt="X">
+            <h4 class="filters-popup__title">Фильтровать</h4>
+            <div class="category_filters-size__mobile">
+                <div class="filters-mobile__call" data-filter-dropdown_mobile="1">
+                    <h5 class="filters-mobile__call-title">Размер</h5>
+                    <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="filters-mobile__call-icon filter-mobile-icon" data-filter-dropdown_mobile="1" alt="Раскрыть вниз">
+                </div>
+                <div class="filters-size__mobile__dropdown filter-mobile-dropdown" data-filter-dropdown_mobile="1">
+                    <div class="dropdown-checkbox__family mobile">
+                        <ul>
+                            <li>
+                                <input id="size-option-12" type="checkbox">
+                                <label for="size-option-12">40</label>
+                            </li>
+                            <li>
+                                <input id="size-option-13" type="checkbox">
+                                <label for="size-option-13">40,5</label>
+                            </li>
+                            <li>
+                                <input id="size-option-14" type="checkbox">
+                                <label for="size-option-14">41</label>
+                            </li>
+                            <li>
+                                <input id="size-option-15" type="checkbox">
+                                <label for="size-option-15">41,5</label>
+                            </li>
+                            <li>
+                                <input id="size-option-16" type="checkbox">
+                                <label for="size-option-16">42</label>
+                            </li>
+                            <li>
+                                <input id="size-option-17" type="checkbox">
+                                <label for="size-option-17">42,5</label>
+                            </li>
+                            <li>
+                                <input id="size-option-18" type="checkbox">
+                                <label for="size-option-18">43</label>
+                            </li>
+                            <li>
+                                <input id="size-option-19" type="checkbox">
+                                <label for="size-option-19">43,5</label>
+                            </li>
+                            <li>
+                                <input id="size-option-20" type="checkbox">
+                                <label for="size-option-20">44</label>
+                            </li>
+                            <li>
+                                <input id="size-option-21" type="checkbox">
+                                <label for="size-option-21">44,5</label>
+                            </li>
+                            <li>
+                                <input id="size-option-22" type="checkbox">
+                                <label for="size-option-22">45</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="green-line green-line__mobile-filters">
+            </div>
+            <div class="category_filters-value__mobile">
+                <div class="filters-mobile__call" data-filter-dropdown_mobile="2">
+                    <h5 class="filters-mobile__call-title">Цена</h5>
+                    <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="filters-mobile__call-icon filter-mobile-icon" data-filter-dropdown_mobile="2" alt="Раскрыть вниз">
+                </div>
+                <div class="filters-value__mobile__dropdown filter-mobile-dropdown" data-filter-dropdown_mobile="2">
+                    <div class="category_filters-value__dropdown__mobile category_filter_js__mobile">
+                        <div id="filter-dropdown__slider__mobile"></div>
+                    </div>
+                </div>
+                <hr class="green-line green-line__mobile-filters">
+            </div>
+            <div class="category_filters-color__mobile">
+                <div class="filters-mobile__call" data-filter-dropdown_mobile="3">
+                    <h5 class="filters-mobile__call-title">Цвет</h5>
+                    <img src="assets/img/common-icons_svg/dropdown_arrow-icon.svg" class="filters-mobile__call-icon filter-mobile-icon" data-filter-dropdown_mobile="3" alt="Раскрыть вниз">
+                </div>
+                <div class="filters-color__mobile__dropdown filter-mobile-dropdown" data-filter-dropdown_mobile="3">
+                    <div class="dropdown-checkbox__family mobile">
+                        <ul>
+                            <li>
+                                <input id="color-option-10" type="checkbox">
+                                <label for="color-option-10">чёрный</label>
+                            </li>
+                            <li>
+                                <input id="color-option-11" type="checkbox">
+                                <label for="color-option-11">серый</label>
+                            </li>
+                            <li>
+                                <input id="color-option-12" type="checkbox">
+                                <label for="color-option-12">белый</label>
+                            </li>
+                            <li>
+                                <input id="color-option-13" type="checkbox">
+                                <label for="color-option-13">красный</label>
+                            </li>
+                            <li>
+                                <input id="color-option-14" type="checkbox">
+                                <label for="color-option-14">синий</label>
+                            </li>
+                            <li>
+                                <input id="color-option-15" type="checkbox">
+                                <label for="color-option-15">зелёный</label>
+                            </li>
+                            <li>
+                                <input id="color-option-16" type="checkbox">
+                                <label for="color-option-16">фиолетовый</label>
+                            </li>
+                            <li>
+                                <input id="color-option-17" type="checkbox">
+                                <label for="color-option-17">жёлтый</label>
+                            </li>
+                            <li>
+                                <input id="color-option-18" type="checkbox">
+                                <label for="color-option-18">красно-синий</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Применить</button>
+        </div>
+    </div>
+    <script src="assets/js/minified/nouislider.min.js"></script>
+    <script src="assets/js/minified/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/minified/SmoothScroll.min.js"></script>
+    <script src="assets/js/minified/common.min.js"></script>
+    <script src="assets/js/minified/catalogue.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/minified/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/minified/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/minified/fonts.min.css">
+    <link rel="stylesheet" href="assets/css/minified/common.min.css">
+    <link rel="stylesheet" href="assets/css/minified/product.min.css">
+    <title>TRAINSSY - Магазин брендовой обуви</title>
+</head>
+<body>
+    <div class="lds-roller">
+        <span class="lds-inner">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </span>
+    </div>
+    <div class="menu_mobile_wrapper">
+        <nav class="menu_mobile" data-mobile_menu="1">
+            <div class="navbar_mobile_close">
+                <img src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+            </div>
+            <ul id="mobile-menu" class="navbar_mobile">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="1">Мужская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="2">Женская обувь</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="3">Одежда</a></li>
+                <li><a href="#" class="navbar_mobile_open_category" data-mobile_menu-category="4">Аксессуары</a></li>
+                <li><a href="#popup_cart" class="popup-cart-link">Моя корзина</a></li>
+                <li><a href="authorization.html">Мой аккаунт</a></li>
+                <li><a href="legal-info.html">Правовая информация</a></li>
+                <li><a href="help.html">Помощь</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="1">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="1">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Мужская обувь</span>
+            </div>
+            <ul id="mobile-shoes-men-cat" class="navbar_mobile">
+                <li><a href="catalogue.html">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Balenciaga</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Eastland</a></li>
+                <li><a href="#">Merrell</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Salomon</a></li>
+                <li><a href="#">Saucony</a></li>
+                <li><a href="#">Timberland</a></li>
+                <li><a href="#">Under Armour</a></li>
+                <li><a href="#">Vans</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="2">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="2">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Женская обувь</span>
+            </div>
+            <ul id="mobile-shoes-women-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Converse</a></li>
+                <li><a href="#">Dr. Martens</a></li>
+                <li><a href="#">Michael Kors</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Under Armour</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="3">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="3">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Одежда</span>
+            </div>
+            <ul id="mobile-clothes-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Куртки</a></li>
+                <li><a href="#">Толстовки</a></li>
+                <li><a href="#">Жилеты</a></li>
+                <li><a href="#">Брюки</a></li>
+                <li><a href="#">Ветровки</a></li>
+                <li><a href="#">Флис</a></li>
+                <li><a href="#">Джинсы</a></li>
+                <li><a href="#">Кофты</a></li>
+                <li><a href="#">Лонгсливы</a></li>
+                <li><a href="#">Поло</a></li>
+                <li><a href="#">Футболки</a></li>
+                <li><a href="#">Шорты</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile_category" data-mobile_menu-category="4">
+            <div class="navbar_mobile_close-category" data-mobile_menu-category="4">
+                <img src="assets/img/common-icons_svg/back-icon.svg" alt="<">
+                <span class="navbar_mobile_category-title">Аксессуары</span>
+            </div>
+            <ul id="mobile-accessories-cat" class="navbar_mobile">
+                <li><a href="#">Смотреть всё</a></li>
+                <li><a href="#">Рюкзаки</a></li>
+                <li><a href="#">Сумки</a></li>
+                <li><a href="#">Часы</a></li>
+                <li><a href="#">Шарфы</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                        <div class="header-top__pickup d-flex">
+                            <div class="header-top__pickup__info">
+                                <span class="header-top__pickup__title">Самовывоз:</span>
+                                г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header-top__phone">
+                            <a href="tel:+380680799345">+38 (068) 079-93-45</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="header-top__delivery__info">Доставка по всей Украине!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 col-10">
+                        <div class="header-main__logo">
+                            <a href="index.html">
+                                <img src="assets/img/common-icons_svg/logo-black.svg" alt="TRAINSSY">
+                                <div class="caption">Магазин брендовой обуви</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 nav__main-md">
+                        <nav class="nav__main">
+                            <ul class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                            <div id="openFullMenuBtn" class="nav__main__fullopen">
+                                <img src="assets/img/common-icons_svg/dropdown-menu-black.svg" alt="...">
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-12 header-main__phonenumber-md">
+                        <div class="header-main__phonenumber">
+                            <a href="tel:+380680799345" class="header-main__phone">+38 (068) 079-93-45</a>
+                            <div class="header-main__phone-caption">Доставка по всей Украине!</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-2 offset-md-0 col-sm-2 offset-sm-1 col-3 offset-1 side-menu_col">
+                        <nav class="side-menu">
+                            <ul class="side-menu__navbar d-flex">
+                                <li class="side-menu__navbar__wrapper d-flex">
+                                    <a href="#popup_cart" class="popup-cart-link">
+                                        <img class="navbar__wrapper__basket-icon" src="assets/img/common-icons_svg/basket-icon.svg" alt="Моя корзина">
+                                    </a>
+                                    <div class="wrapper__basket-counter">
+                                        <div class="wrapper__basket-counter__ellipse">
+                                            <p class="basket-counter__ellipse__count-num general">4</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <a href="authorization.html">
+                                        <img class="navbar__account-icon" src="assets/img/common-icons_svg/account-icon.svg" alt="Мой аккаунт">
+                                    </a>
+                                    <div class="navbar__authorization-link">
+                                        <p class="navbar__authorization-link__caption">Авторизация</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-1 offset-md-1 col-sm-2 offset-sm-2 col-2 offset-0 hamburger-menu">
+                        <div class="header-main__hamburger-menu" data-mobile_menu="1">
+                            <img src="assets/img/common-icons_svg/hamburger-menu.svg" alt="Открыть меню">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="full-menu">
+        <div id="openFullMenu" class="header_full_menu_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="header_full_menu">
+                            <div class="header_nav_full">
+                                <ul id="mega-menu" class="header_full_navbar">
+                                    <li><a href="#">Смотреть всё</a></li>
+                                    <li><a href="#">Новинки</a></li>
+                                    <li><a href="#">Распродажа</a></li>
+                                    <li><a href="catalogue.html">Мужская обувь</a></li>
+                                    <li><a href="#">Женская обувь</a></li>
+                                    <li><a href="#">Одежда</a></li>
+                                    <li><a href="#">Аксессуары</a></li>
+                                    <li><a href="legal-info.html">Правовая информация</a></li>
+                                    <li><a href="help.html">Помощь</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10">
+                        <h4 class="categories_title">Популярные категории</h4>
+                        <div class="categories_preview">
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/nike-preview.webp');">
+                                <div class="title">
+                                    <h5>Nike</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/adidas-preview.webp');">
+                                <div class="title">
+                                    <h5>Adidas</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/new-balance-preview.webp');">
+                                <div class="title">
+                                    <h5>New Balance</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                            <a href="#" class="category_preview" style="background-image: url('assets/img/category-preview/mega-menu/martens-preview.webp');">
+                                <div class="title">
+                                    <h5>Dr. Martens</h5>
+                                    <p>Посмотреть</p>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal_line"></div>
+        </div>
+    </section>
+    <section class="ui-elements__product">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <a href="#popup_search" class="popup-search-link popup-search-link__small">
+                        <div class="popup-search-link__content-wrapper d-flex">
+                            <p class="search-button__text">Искать товар</p>
+                            <img class="search-button__smallimg" src="assets/img/common-icons_svg/push-to-search-btn_small.svg" alt="<">
+                        </div>
+                        <hr class="search-button__line">
+                    </a>
+                    <nav class="search-history">
+                        <a href="index.html">Главная</a>
+                        <i class="search-arrow"></i>
+                        <a href="#">Смотреть всё</a>
+                        <i class="search-arrow"></i>
+                        <a href="catalogue.html">Мужская обувь</a>
+                        <i class="search-arrow"></i>
+                        <a href="product.html">Salomon Speedcross 3 (3410855)</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="ui-elements__wrapper">
+                        <h4 class="ui-elements__product-name">Salomon Speedcross 3 (3410855)</h4>
+                        <a href="#popup_search" class="search-popup_link__product-page popup-search-link">
+                            <img src="assets/img/common-icons_svg/push-to-search-btn.svg" alt="Искать товар">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 ui-elements__undertitle-wrapper">
+                    <div class="ui-elements__product-code">
+                        <div class="ui-elements__product-code__text">Код: <span id="codeText">00221</span></div>
+                        <button onclick="copyCodeText('#codeText')">
+                            <img src="assets/img/copy-icon.svg" alt="Копировать">
+                        </button>
+                        <div class="ui-elements__product-code__message">
+                            <img class="message_icon" src="assets/img/simple-whitetick-icon.svg" alt="!">
+                            Код скопирован
+                        </div>
+                    </div>
+                    <button class="ui-elements__share-icon">
+                        <img src="assets/img/common-icons_svg/share-icon.svg" alt="Поделиться">
+                    </button>
+                    <div class="ui-elements__share-popup">
+                        <ul>
+                            <li class="share-facebook">
+                                <a href="#">
+                                    <img src="assets/img/share-icons_svg/facebook-small-share_icon.svg" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="share-telegram">
+                                <a href="#">
+                                    <img src="assets/img/share-icons_svg/telegram-small-share_icon.svg" alt="Telegram">
+                                </a>
+                            </li>
+                            <li class="share-twitter">
+                                <a href="#">
+                                    <img src="assets/img/share-icons_svg/twitter-small-share_icon.webp" alt="Twitter">
+                                </a>
+                            </li>
+                            <li class="share-whatsapp">
+                                <a href="#">
+                                    <img src="assets/img/share-icons_svg/whatsapp-small-share_icon.svg" alt="Whatsapp">
+                                </a>
+                            </li>
+                        </ul>
+                        <img class="ui-elements__share-close_icon" src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="main-block__product">
+                        <div class="main-block__product__big-wrapper">
+                            <nav class="main-block__product-navbar">
+                                <ul id="productTabs">
+                                    <li class="product-tab__trigger active" data-product-tab="1">Все о товаре</li>
+                                    <li class="product-tab__trigger" data-product-tab="2">Описание</li>
+                                    <li class="product-tab__trigger gallery" data-product-tab="3">Фото</li>
+                                    <li class="product-tab__trigger" data-product-tab="4">Оставить отзыв</li>
+                                </ul>
+                            </nav>
+                            <div class="main-block__product-common main-block__product-tab active" data-product-content="1">
+                                <hr class="gray-line">
+                                <div class="main-block__product-common__wrapper">
+                                    <div class="main-block__product-common__gallery">
+                                        <div class="product-common__gallery__pagination">
+                                            <img class="pagination-image active" data-product-image_trigger="1" src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                            <img class="pagination-image" data-product-image_trigger="2" src="assets/img/product-images/product-image-2.webp" alt="Изображение товара">
+                                            <img class="pagination-image" data-product-image_trigger="3" src="assets/img/product-images/product-image-3.webp" alt="Изображение товара">
+                                            <img class="pagination-image" data-product-image_trigger="4" src="assets/img/product-images/product-image-4.webp" alt="Изображение товара">
+                                            <img class="pagination-image" data-product-image_trigger="5" src="assets/img/product-images/product-image-5.webp" alt="Изображение товара">
+                                        </div>
+                                        <div class="product-common__gallery__current-image">
+                                            <img class="current-image active" data-product-image_current="1" src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                            <img class="current-image" data-product-image_current="2" src="assets/img/product-images/product-image-2.webp" alt="Изображение товара">
+                                            <img class="current-image" data-product-image_current="3" src="assets/img/product-images/product-image-3.webp" alt="Изображение товара">
+                                            <img class="current-image" data-product-image_current="4" src="assets/img/product-images/product-image-4.webp" alt="Изображение товара">
+                                            <img class="current-image" data-product-image_current="5" src="assets/img/product-images/product-image-5.webp" alt="Изображение товара">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-container slider_product-common__mobile">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-2.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-3.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-4.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-5.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <div class="main-block__product-common__selling-block">
+                                        <div class="selling-block__variations-wrapper">
+                                            <div class="option-bundle">
+                                                <h6>Цвет</h6>
+                                                <div class="variations">
+                                                    <div class="variation-color active">
+                                                        <img src="assets/img/product-images/product-image-1.webp" alt="Изображение вариации">
+                                                    </div>
+                                                    <div class="variation-color">
+                                                        <img src="assets/img/product-images/product-image-11.webp" alt="Изображение вариации">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="option-bundle">
+                                                <h6>Размер</h6>
+                                                <div class="variations">
+                                                    <div class="variation-size">
+                                                        <span>40</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>40,5</span>
+                                                    </div>
+                                                    <div class="variation-size active">
+                                                        <span>41</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>42</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>42,5</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>43</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>43,5</span>
+                                                    </div>
+                                                    <div class="variation-size">
+                                                        <span>44</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#popup_table" class="selling-block__sizetable-button popup-table-link">Таблица размеров</a>
+                                            </div>
+                                        </div>
+                                        <div class="features-wrapper">
+                                            <div class="avaliability-status__avaliable">
+                                                <img src="assets/img/product-avaliable_icon.svg" alt="В наличии">
+                                                <div class="avaliability-status__avaliable-text">Товар в наличии</div>
+                                            </div>
+                                            <div class="selling-block__call-to-action">
+                                                <div class="selling-block_price-wrapper">
+                                                    <h6 class="selling-block__price-previous"></h6>
+                                                    <h3 class="selling-block__price-present">3 150 грн</h3>
+                                                </div>
+                                                <div class="call-to-action__buttons">
+                                                    <button class="btn selling-block__purchase-btn">Купить</button>
+                                                    <a class="add-to-wishlist-button">
+                                                        <img src="assets/img/wishlist-heart-image.webp" alt="Сердце">
+                                                        <span>В избранное</span>
+                                                    </a>
+                                                </div>
+                                                <div class="general-info">
+                                                    <div class="dropdown">
+                                                        <div class="dropdown-heading" data-info-dropdown="1">
+                                                            <span>Способы доставки</span>
+                                                            <img class="dropdown-info-icon" src="assets/img/arrow-thin-icon.svg" data-info-dropdown_icon="1" alt="Стрелка вниз">
+                                                        </div>
+                                                        <div class="dropdown-content" data-info-dropdown_content="1">
+                                                            <p>На данный момент доставка осуществляется на отделение “Нова Пошта”, а также возможна адресная доставка с помощью этого сервиса.</p>
+                                                            <p>Товар можно забрать самому, предварительно оформив заказ с опцией "Самовывоз".</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <div class="dropdown-heading" data-info-dropdown="2">
+                                                            <span>Способы оплаты заказа</span>
+                                                            <img class="dropdown-info-icon" src="assets/img/arrow-thin-icon.svg" data-info-dropdown_icon="2" alt="Стрелка вниз">
+                                                        </div>
+                                                        <div class="dropdown-content" data-info-dropdown_content="2">
+                                                            <p>Оплата заказа осуществляется любым удобным для Вас способом с помощью защищенной платежной системы "Fondy": оплата банковской картой, Google Pay, Apple Pay и т. д.</p>
+                                                            <p>Если вы не хотите совершать оплату в Интернете, вам подойдет опция оплаты при получении.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="call-to-action__announcement">Возврат/обмен товара возможен в течение 14 дней после покупки.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="call-to-action__announcement__tablet">Возврат/обмен товара возможен в течение 14 дней после покупки.</div>
+                                </div>
+                            </div>
+                            <div class="main-block__product-additional main-block__product-tab" data-product-content="2">
+                                <div class="main-block__product-additional__two-sides">
+                                    <div class="main-block__product-additional__left">
+                                        <hr class="gray-line">
+                                        <div class="main-block__product-additional__wrapper">
+                                            <div class="main-block__product-additional__descr">
+                                                <h5 class="product-additional__descr-title">Описание товара</h5>
+                                                <p class="product-additional__descr-text">Культовые кроссовки Salomon Speedcross 3 славятся тем, что они легкие, очень мягкие и с их невероятным сцеплением. Ни одна обувь не сможет с ними сравниться.</p>
+                                            </div>
+                                            <div class="main-block__product-additional__features">
+                                                <h5 class="product-additional__features-title">Технические характеристики</h5>
+                                                <ul>
+                                                    <li><strong>Агрессивная хватка.</strong> Наш легендарный рисунок проушин Speedcross обеспечивает максимальное сцепление с дорогой.</li>
+                                                    <li><strong>Точная точка опоры.</strong> Проверенная комбинация конструкции Sensifit и Quicklace создает очень удобную точку опоры.</li>
+                                                    <li><strong>Легкая защита.</strong> Защитная лента вокруг основания стопы защищает вас в любых условиях.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-block__product-common main-block__product-tab big-gallery" data-product-content="3">
+                                <hr class="gray-line">
+                                <div class="main-block__product-common__gallery-wrapper">
+                                    <div class="swiper-container slider_gallery-big">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-2.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-3.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-4.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-slider__image">
+                                                    <img src="assets/img/product-images/product-image-5.webp" alt="Изображение товара">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="button-wrapper d-flex">
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-block__product-additional main-block__product-tab" data-product-content="4">
+                                <div class="main-block__product-additional__two-sides">
+                                    <div class="main-block__product-additional__left">
+                                        <hr class="gray-line">
+                                        <div class="main-block__product-additional__wrapper">
+                                            <h5 class="product-additional__descr-title">Поделиться отзывом</h5>
+                                            <p class="product-additional__descr-text">Поделитесь вашими впечатлениями от купленного товара, чтобы помочь нашим клиентам с выбором. Безумно благодарны вам за выбор именно нашего магазина!</p>
+                                            <textarea class="review-share_opened__textarea" name="comment" id="comment" placeholder="Ваш отзыв"></textarea>
+                                            <div class="review-share_opened__rate">
+                                                <label for="rating" class="review-share_opened__rate-text">
+                                                    Ваша оценка
+                                                    <span class="required">*</span>
+                                                </label>
+                                                <div class="review-share_opened__rate-wrapper">
+                                                    <div class="review-share_opened__rate-stars">
+                                                        <input id="rate-stars__5" type="radio" class="review-share_opened__rate-star" name="rate-stars" value="5">
+                                                        <label for="rate-stars__5" class="review-share_opened__rate-label"></label>
+                                                        <input id="rate-stars__4" type="radio" class="review-share_opened__rate-star" name="rate-stars" value="4">
+                                                        <label for="rate-stars__4" class="review-share_opened__rate-label"></label>
+                                                        <input id="rate-stars__3" type="radio" class="review-share_opened__rate-star" name="rate-stars" value="3">
+                                                        <label for="rate-stars__3" class="review-share_opened__rate-label"></label>
+                                                        <input id="rate-stars__2" type="radio" class="review-share_opened__rate-star" name="rate-stars" value="2">
+                                                        <label for="rate-stars__2" class="review-share_opened__rate-label"></label>
+                                                        <input id="rate-stars__1" type="radio" class="review-share_opened__rate-star" name="rate-stars" value="1">
+                                                        <label for="rate-stars__1" class="review-share_opened__rate-label"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn review-share_opened__btn">Отправить</button>
+                                            <div class="reviews__block">
+                                                <div class="reviews__block__exist">
+                                                    <div class="reviews__block__review-item">
+                                                        <img class="review-item__user-image" src="assets/img/user-image.webp" alt="Фото клиента">
+                                                        <div class="review-item__details">
+                                                            <div class="review-item__details__row">
+                                                                <p class="review-item__details-name">Владислав</p>
+                                                                <div class="review-item__details-date">18.12.2021</div>
+                                                            </div>
+                                                            <div class="review-item__details-rate">
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                            </div>
+                                                            <div class="review-item__details-caption">Отзыв о товаре:</div>
+                                                            <div class="review-item__details-text">Кроссовки уже успел опробовать. Даже не смотря на то, что сейчас зима, могу отметить качество и удобство. За свою цену более чем хорошие кроссовки!</div>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="review_line-bottom">
+                                                    <div class="reviews__block__review-item">
+                                                        <img class="review-item__user-image" src="assets/img/user-image.webp" alt="Фото клиента">
+                                                        <div class="review-item__details">
+                                                            <div class="review-item__details__row">
+                                                                <p class="review-item__details-name">Константин</p>
+                                                                <div class="review-item__details-date">05.12.2021</div>
+                                                            </div>
+                                                            <div class="review-item__details-rate">
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star"></div>
+                                                                <div class="details-rate__star"></div>
+                                                            </div>
+                                                            <div class="review-item__details-caption">Отзыв о товаре:</div>
+                                                            <div class="review-item__details-text">Ну кроссы были дорого, да. Вот купил недавно их. Не совсем понравились, ибо когда открыл коробку на мосту - содержимое упало в реку. Не опробовал как следует. Ставлю три с минусом.</div>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="review_line-bottom">
+                                                    <div class="reviews__block__review-item">
+                                                        <img class="review-item__user-image" src="assets/img/user-image.webp" alt="Фото клиента">
+                                                        <div class="review-item__details">
+                                                            <div class="review-item__details__row">
+                                                                <p class="review-item__details-name">Леночка</p>
+                                                                <div class="review-item__details-date">30.11.2021</div>
+                                                            </div>
+                                                            <div class="review-item__details-rate">
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                                <div class="details-rate__star lighted"></div>
+                                                            </div>
+                                                            <div class="review-item__details-caption">Отзыв о товаре:</div>
+                                                            <div class="review-item__details-text">Добрий вечір! Забрала кросівки, вони просто офігенні! Дякую велике, буду замовляти ще. І дякую за солодощі)</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-block__product__sticky-card">
+                            <div class="sticky-card__inside-wrapper">
+                                <div class="swiper-container slider_sticky-card">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="image-slider__image">
+                                                <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="image-slider__image">
+                                                <img src="assets/img/product-images/product-image-2.webp" alt="Изображение товара">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="image-slider__image">
+                                                <img src="assets/img/product-images/product-image-3.webp" alt="Изображение товара">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="image-slider__image">
+                                                <img src="assets/img/product-images/product-image-4.webp" alt="Изображение товара">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="image-slider__image">
+                                                <img src="assets/img/product-images/product-image-5.webp" alt="Изображение товара">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <div class="avaliability-status__avaliable">
+                                    <img src="assets/img/product-avaliable_icon.svg" alt="Товар в наличии">
+                                    <div class="avaliability-status__avaliable-text">Товар в наличии</div>
+                                </div>
+                                <div class="selling-block__call-to-action">
+                                    <div class="selling-block_price-wrapper">
+                                        <h6 class="selling-block__price-previous"></h6>
+                                        <h3 class="selling-block__price-present">3 150 грн</h3>
+                                    </div>
+                                    <div class="call-to-action__buttons">
+                                        <div class="btn selling-block__purchase-btn fake-button_add-to-cart">Купить</div>
+                                        <a class="add-to-wishlist-button">
+                                            <img src="assets/img/wishlist-heart-image.webp" alt="Сердце">
+                                            <span>В избранное</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="call-to-action__announcement">Возврат/обмен товара возможен в течение 14 дней после покупки.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="additional-goods">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h4 class="additional-goods__title">Вам также может понравиться</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 additional-goods__desktop">
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Salomon Speedcross Offroad</h5>
+                            <div class="bottom">
+                                <h5>3 500 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-7.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Nike Air Max 95</h5>
+                            <div class="bottom">
+                                <h5>4 500 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Nike Air Max 95</h5>
+                            <div class="bottom">
+                                <h5>4 500 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-9.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Salomon X Crest GTX</h5>
+                            <div class="bottom">
+                                <h5>3 000 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Salomon XT-6</h5>
+                            <div class="bottom">
+                                <h5>4 500 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-11.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Salomon Speedcross 3</h5>
+                            <div class="bottom">
+                                <h5>3 150 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-12.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Salomon XT-RUSH</h5>
+                            <div class="bottom">
+                                <h5>3 900 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#">
+                            <img src="assets/img/product-images/product-image-13.webp" alt="Главное изображение товара">
+                        </a>
+                        <div class="details-wrapper">
+                            <h5 class="product-name">Timberland Field trekker</h5>
+                            <div class="bottom">
+                                <h5>2 500 грн</h5>
+                            </div>
+                            <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row additional-goods__slider">
+                <div class="col-xl-12">
+                    <div class="swiper-container slider-product_additionals">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Salomon Speedcross Offroad</h5>
+                                        <div class="bottom">
+                                            <h5>3 500 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-7.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Nike Air Max 95</h5>
+                                        <div class="bottom">
+                                            <h5>4 500 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Nike Air Max 95</h5>
+                                        <div class="bottom">
+                                            <h5>4 500 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-9.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Salomon X Crest GTX</h5>
+                                        <div class="bottom">
+                                            <h5>3 000 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Salomon XT-6</h5>
+                                        <div class="bottom">
+                                            <h5>4 500 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-11.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Salomon Speedcross 3</h5>
+                                        <div class="bottom">
+                                            <h5>3 150 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-12.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Salomon XT-RUSH</h5>
+                                        <div class="bottom">
+                                            <h5>3 900 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <img src="assets/img/product-images/product-image-13.webp" alt="Главное изображение товара">
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <h5 class="product-name">Timberland Field trekker</h5>
+                                        <div class="bottom">
+                                            <h5>2 500 грн</h5>
+                                        </div>
+                                        <img src="assets/img/common-icons_svg/heart-black-icon.svg" class="add-to-wishlist-btn" alt="Добавить в избранное">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="column-first">
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img class="header_logo_image" src="assets/img/common-icons_svg/logo-white.svg" alt="TRAINSSY">
+                            </a>
+                            <p class="footer_logo_text">Магазин брендовой обуви</p>
+                        </div>
+                        <div class="btn_up tablet">
+                            <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                        </div>
+                        <div class="footer_nav">
+                            <ul id="primary-menu" class="navbar">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Новинки</a></li>
+                                <li><a href="catalogue.html">Мужская обувь</a></li>
+                                <li><a href="#">Женская обувь</a></li>
+                            </ul>
+                        </div>
+                        <div class="elements-wrapper">
+                            <a class="btn_up desktop">
+                                <img class="footer_button_up" src="assets/img/common-icons_svg/button-up.svg" alt="^">
+                            </a>
+                            <div class="footer_phonenumber">
+                                <a href="tel:+380680799345" class="footer_phone">+38 (068) 079-93-45</a>
+                                <div class="footer_phone_text">Доставка по всей Украине!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-second">
+                        <div class="elements-wrapper_1">
+                            <a href="https://www.instagram.com/vlad.alexson/" target="_blank" rel="noreferrer">
+                                <img src="assets/img/common-icons_svg/inst-icon-white.svg" class="inst_icon" alt="Instagram">
+                            </a>
+                            <div class="footer_pickup">
+                                <p class="title">Самовывоз:</p>
+                                <p class="footer_schedule">г. Киев в пн/ср/пт 12:00 - 15:00, сб/вс по договорённости</p>
+                            </div>
+                        </div>
+                        <div class="bank-options">
+                            <img src="assets/img/common-icons_svg/mastercard-icon.svg" alt="Mastercard">
+                            <img src="assets/img/common-icons_svg/visa-icon.svg" alt="Visa">
+                        </div>
+                        <div class="btn_up mobile">
+                            <img src="assets/img/common-icons_svg/button-up.svg" class="footer_button_up" alt="^">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="popup_search" class="popup_search">
+        <div class="search-popup__body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="popup_search__close_mobile close-popup-search">
+                            <img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть">
+                        </a>
+                    </div>
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                        <div class="search-popup_big-input_wrapper d-flex">
+                            <input type="text" placeholder="Поиск" class="search-popup_white-input" value="Salomon">
+                            <div class="search-popup_input-btn">
+                                <img src="assets/img/common-icons_svg/lens-icon.svg" alt="Искать">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                        <div class="search-popup__result">
+                            <ul>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon Speedcross 3</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00221</p>
+                                            <h6>3 150 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon Speedcross Offroad</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00220</p>
+                                            <h6>3 500 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-9.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon X Crest GTX</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00214</p>
+                                            <h6>3 000 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="search-result_item">
+                                    <a href="product.html" class="search-result_link">
+                                        <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                        <div class="content">
+                                            <h5>Salomon XT-6</h5>
+                                            <p class="avaliability">В наличии</p>
+                                            <p class="sku">SKU: 00213</p>
+                                            <h6>4 500 грн</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="see-more">Посмотреть все результаты</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_cart" class="popup_cart">
+        <div class="cart_popup__body">
+            <div class="cart_popup__content">
+                <div class="title_block">
+                    <img class="popup_cart-icon" src="assets/img/common-icons_svg/basket-icon.svg" alt="Иконка пакета">
+                    <h3 class="popup_cart-title">Корзина</h3>
+                    <a class="popup_cart__close close-popup-cart">
+                        <img class="search-popup__close-button" src="assets/img/common-icons_svg/close-hamburger-button.svg" alt="X">
+                    </a>
+                </div>
+                <div class="goods-added__cart">
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="product.html">
+                                    <img src="assets/img/product-images/product-image-1.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="product.html" class="good-in-cart__name">Salomon Speedcross 3 - чёрный, 41 (3410855)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00221</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">3 150 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">3 150 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-6.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Salomon Speedcross Offroad - чёрный, 42,5 (414563)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00220</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">3 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">3 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-10.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Salomon XT-6 - коричневый, 42,5 (414547)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00213</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">4 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">4 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                    <div class="added-goods__cart">
+                        <div class="goods-in-cart">
+                            <div class="goods-in-cart__content d-flex">
+                                <a href="#">
+                                    <img src="assets/img/product-images/product-image-8.webp" alt="Главное изображение товара">
+                                </a>
+                                <div class="goods-in-cart__descr">
+                                    <div class="goods-in-cart_first-wrapper d-flex">
+                                        <a href="#" class="good-in-cart__name">Nike Air Max 95 - чёрный, 42,5 (DC9412-001)</a>
+                                        <a class="good-in-cart__delete-icon"></a>
+                                    </div>
+                                    <div class="good-in-cart__code">Код: 00215</div>
+                                    <div class="good-in-cart_second-wrapper">
+                                        <div class="cart-price_wrapper">4 500 грн</div>
+                                        <div class="good-in-cart__second-wrapper__right-part">
+                                            <div class="good-in-cart__quantity">
+                                                <button class="btn-quantity-update bt_minus">
+                                                    <img src="assets/img/quantity-minus-icon.svg" alt="-">
+                                                </button>
+                                                <div class="quantity">
+                                                    <input type="text" class="input-text qty text" value="1">
+                                                </div>
+                                                <button class="btn-quantity-update bt_plus">
+                                                    <img src="assets/img/quantity-plus-icon.svg" alt="+">
+                                                </button>
+                                            </div>
+                                            <div class="good-in-cart__sum-value">4 500 грн</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="black-line">
+                        </div>
+                    </div>
+                </div>
+                <div class="summary_block">
+                    <div class="summary_block__title">
+                        <h3 class="summary_block__title-total">Итого:</h3>
+                        <div class="summary-block__title-sum">15 650 грн</div>
+                    </div>
+                    <a href="checkout.html" class="btn"><span>Оформить заказ</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_table" class="popup_table">
+        <div class="table_popup__body">
+            <div class="table_popup__content shoes-unisex active">
+                <div class="title_block">
+                    <img src="assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+                    <h3 class="popup_table-title">Таблица размеров (обувь)</h3>
+                    <a class="close-popup-table"><img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+                </div>
+                <div class="popup__table-wrapper">
+                    <table class="popup_size-table">
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">EU</th>
+                            <td class="dark">35.5</td>
+                            <td class="light">36</td>
+                            <td class="dark">36.5</td>
+                            <td class="light">37.5</td>
+                            <td class="dark">38</td>
+                            <td class="light">38.5</td>
+                            <td class="dark">39</td>
+                            <td class="light">40</td>
+                            <td class="dark">40.5</td>
+                            <td class="light">41</td>
+                            <td class="dark">42</td>
+                            <td class="light">42.5</td>
+                            <td class="dark">43</td>
+                            <td class="light">44</td>
+                            <td class="dark">44.5</td>
+                            <td class="light">45</td>
+                            <td class="dark">45.5</td>
+                            <td class="light">46</td>
+                            <td class="dark">47</td>
+                            <td class="light">47.5</td>
+                            <td class="dark">48</td>
+                            <td class="light">48.5</td>
+                            <td class="dark">49</td>
+                            <td class="light">49.5</td>
+                            <td class="dark">50</td>
+                            <td class="light">50.5</td>
+                            <td class="dark">51</td>
+                            <td class="light">51.5</td>
+                            <td class="dark">52</td>
+                            <td class="light">52.5</td>
+                            <td class="dark">53</td>
+                            <td class="light">53.5</td>
+                            <td class="dark">54</td>
+                            <td class="light">54.5</td>
+                            <td class="dark">55</td>
+                            <td class="light">55.5</td>
+                            <td class="dark">56</td>
+                            <td class="light">56.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">RU</th>
+                            <td class="dark">34.5</td>
+                            <td class="light">35</td>
+                            <td class="dark">35.5</td>
+                            <td class="light">36.5</td>
+                            <td class="dark">37</td>
+                            <td class="light">37.5</td>
+                            <td class="dark">38</td>
+                            <td class="light">39</td>
+                            <td class="dark">39.5</td>
+                            <td class="light">40</td>
+                            <td class="dark">41</td>
+                            <td class="light">41.5</td>
+                            <td class="dark">42</td>
+                            <td class="light">43</td>
+                            <td class="dark">43.5</td>
+                            <td class="light">44</td>
+                            <td class="dark">44.5</td>
+                            <td class="light">45</td>
+                            <td class="dark">46</td>
+                            <td class="light">46.5</td>
+                            <td class="dark">47</td>
+                            <td class="light">47.5</td>
+                            <td class="dark">48</td>
+                            <td class="light">48.5</td>
+                            <td class="dark">49</td>
+                            <td class="light">49.5</td>
+                            <td class="dark">50</td>
+                            <td class="light">50.5</td>
+                            <td class="dark">51</td>
+                            <td class="light">51.5</td>
+                            <td class="dark">52</td>
+                            <td class="light">52.5</td>
+                            <td class="dark">53</td>
+                            <td class="light">53.5</td>
+                            <td class="dark">54</td>
+                            <td class="light">54.5</td>
+                            <td class="dark">55</td>
+                            <td class="light">55.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">CM</th>
+                            <td class="dark">22.5</td>
+                            <td class="light">23</td>
+                            <td class="dark">23.5</td>
+                            <td class="light">23.5</td>
+                            <td class="dark">24</td>
+                            <td class="light">24</td>
+                            <td class="dark">24.5</td>
+                            <td class="light">25</td>
+                            <td class="dark">25.5</td>
+                            <td class="light">26</td>
+                            <td class="dark">26.5</td>
+                            <td class="light">27</td>
+                            <td class="dark">27.5</td>
+                            <td class="light">28</td>
+                            <td class="dark">28.5</td>
+                            <td class="light">29</td>
+                            <td class="dark">29.5</td>
+                            <td class="light">30</td>
+                            <td class="dark">30.5</td>
+                            <td class="light">31</td>
+                            <td class="dark">31.5</td>
+                            <td class="light">32</td>
+                            <td class="dark">32.5</td>
+                            <td class="light">33</td>
+                            <td class="dark">33.5</td>
+                            <td class="light">34</td>
+                            <td class="dark">34.5</td>
+                            <td class="light">35</td>
+                            <td class="dark">35.5</td>
+                            <td class="light">36</td>
+                            <td class="dark">36.5</td>
+                            <td class="light">37</td>
+                            <td class="dark">37.5</td>
+                            <td class="light">38</td>
+                            <td class="dark">38.5</td>
+                            <td class="light">39</td>
+                            <td class="dark">39.5</td>
+                            <td class="light">40</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">US - мужчины</th>
+                            <td class="dark">3.5</td>
+                            <td class="light">4</td>
+                            <td class="dark">4.5</td>
+                            <td class="light">5</td>
+                            <td class="dark">5.5</td>
+                            <td class="light">6</td>
+                            <td class="dark">6.5</td>
+                            <td class="light">7</td>
+                            <td class="dark">7.5</td>
+                            <td class="light">8</td>
+                            <td class="dark">8.5</td>
+                            <td class="light">9</td>
+                            <td class="dark">9.5</td>
+                            <td class="light">10</td>
+                            <td class="dark">10.5</td>
+                            <td class="light">11</td>
+                            <td class="dark">11.5</td>
+                            <td class="light">12</td>
+                            <td class="dark">12.5</td>
+                            <td class="light">13</td>
+                            <td class="dark">13.5</td>
+                            <td class="light">14</td>
+                            <td class="dark">14.5</td>
+                            <td class="light">15</td>
+                            <td class="dark">15.5</td>
+                            <td class="light">16</td>
+                            <td class="dark">16.5</td>
+                            <td class="light">17</td>
+                            <td class="dark">17.5</td>
+                            <td class="light">18</td>
+                            <td class="dark">18.5</td>
+                            <td class="light">19</td>
+                            <td class="dark">19.5</td>
+                            <td class="light">20</td>
+                            <td class="dark">20.5</td>
+                            <td class="light">21</td>
+                            <td class="dark">21.5</td>
+                            <td class="light">22</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">US - женщины</th>
+                            <td class="dark">5</td>
+                            <td class="light">5.5</td>
+                            <td class="dark">6</td>
+                            <td class="light">6.5</td>
+                            <td class="dark">7</td>
+                            <td class="light">7.5</td>
+                            <td class="dark">8</td>
+                            <td class="light">8.5</td>
+                            <td class="dark">9</td>
+                            <td class="light">9.5</td>
+                            <td class="dark">10</td>
+                            <td class="light">10.5</td>
+                            <td class="dark">11</td>
+                            <td class="light">11.5</td>
+                            <td class="dark">12</td>
+                            <td class="light">12.5</td>
+                            <td class="dark">13</td>
+                            <td class="light">13.5</td>
+                            <td class="dark">14</td>
+                            <td class="light">14.5</td>
+                            <td class="dark">15</td>
+                            <td class="light">15.5</td>
+                            <td class="dark">16</td>
+                            <td class="light">16.5</td>
+                            <td class="dark">17</td>
+                            <td class="light">17.5</td>
+                            <td class="dark">18</td>
+                            <td class="light">18.5</td>
+                            <td class="dark">19</td>
+                            <td class="light">19.5</td>
+                            <td class="dark">20</td>
+                            <td class="light">20.5</td>
+                            <td class="dark">21</td>
+                            <td class="light">21.5</td>
+                            <td class="dark">22</td>
+                            <td class="light">22.5</td>
+                            <td class="dark">23</td>
+                            <td class="light">23.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">UK</th>
+                            <td class="dark">3</td>
+                            <td class="light">3.5</td>
+                            <td class="dark">4</td>
+                            <td class="light">4.5</td>
+                            <td class="dark">5</td>
+                            <td class="light">5.5</td>
+                            <td class="dark">6</td>
+                            <td class="light">6</td>
+                            <td class="dark">6.5</td>
+                            <td class="light">7</td>
+                            <td class="dark">7.5</td>
+                            <td class="light">8</td>
+                            <td class="dark">8.5</td>
+                            <td class="light">9</td>
+                            <td class="dark">9.5</td>
+                            <td class="light">10</td>
+                            <td class="dark">10.5</td>
+                            <td class="light">11</td>
+                            <td class="dark">11.5</td>
+                            <td class="light">12</td>
+                            <td class="dark">12.5</td>
+                            <td class="light">13</td>
+                            <td class="dark">13.5</td>
+                            <td class="light">14</td>
+                            <td class="dark">14.5</td>
+                            <td class="light">15</td>
+                            <td class="dark">15.5</td>
+                            <td class="light">16</td>
+                            <td class="dark">16.5</td>
+                            <td class="light">17</td>
+                            <td class="dark">17.5</td>
+                            <td class="light">18</td>
+                            <td class="dark">18.5</td>
+                            <td class="light">19</td>
+                            <td class="dark">19.5</td>
+                            <td class="light">20</td>
+                            <td class="dark">20.5</td>
+                            <td class="light">21</td>
+                        </tr>
+                    </table>
+                    <div class="overflow"></div>
+                </div>
+                <div class="popup_table-instructions">
+                    <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+                    <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+                </div>
+            </div>
+            <div class="table_popup__content tops-men" style="display: none;">
+                <div class="title_block">
+                    <img src="assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+                    <h3 class="popup_table-title">Таблица размеров (мужской верх)</h3>
+                    <a class="close-popup-table"><img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+                </div>
+                <div class="popup__table-wrapper">
+                    <table class="popup_size-table">
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Размер</th>
+                            <td class="dark">XS</td>
+                            <td class="light">S</td>
+                            <td class="dark">S Tall</td>
+                            <td class="light">M</td>
+                            <td class="dark">M Tall</td>
+                            <td class="light">L</td>
+                            <td class="dark">L Tall</td>
+                            <td class="light">XL</td>
+                            <td class="dark">XL Tall</td>
+                            <td class="light">2Xl</td>
+                            <td class="dark">2XL Tall</td>
+                            <td class="light">3 XL</td>
+                            <td class="dark">3XL Tall</td>
+                            <td class="light">4XL</td>
+                            <td class="dark">4XL Tall</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват под грудью (см)</th>
+                            <td class="dark">80 - 88</td>
+                            <td class="light">88 - 96</td>
+                            <td class="dark">88 - 96</td>
+                            <td class="light">96 - 104</td>
+                            <td class="dark">96 - 104</td>
+                            <td class="light">104 - 112</td>
+                            <td class="dark">104 - 112</td>
+                            <td class="light">112 - 124</td>
+                            <td class="dark">112 - 124</td>
+                            <td class="light">124 - 136</td>
+                            <td class="dark">124 - 136</td>
+                            <td class="light">136 - 148</td>
+                            <td class="dark">136 - 148</td>
+                            <td class="light">148 - 160</td>
+                            <td class="dark">148 - 160</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват талии (см)</th>
+                            <td class="dark">65 - 73</td>
+                            <td class="light">73 - 81</td>
+                            <td class="dark">73 - 81</td>
+                            <td class="light">81 - 89</td>
+                            <td class="dark">81 - 89</td>
+                            <td class="light">89 - 97</td>
+                            <td class="dark">89 - 97</td>
+                            <td class="light">97 - 109</td>
+                            <td class="dark">97 - 109</td>
+                            <td class="light">109 - 121</td>
+                            <td class="dark">109 - 121</td>
+                            <td class="light">121 - 133</td>
+                            <td class="dark">121 - 133</td>
+                            <td class="light">133 - 145</td>
+                            <td class="dark">133 - 145</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват бедер (см)</th>
+                            <td class="dark">80 - 88</td>
+                            <td class="light">88 - 96</td>
+                            <td class="dark">88 - 96</td>
+                            <td class="light">96 - 104</td>
+                            <td class="dark">96 - 104</td>
+                            <td class="light">104 - 112</td>
+                            <td class="dark">104 - 112</td>
+                            <td class="light">112 - 120</td>
+                            <td class="dark">112 - 120</td>
+                            <td class="light">120 - 128</td>
+                            <td class="dark">120 - 128</td>
+                            <td class="light">128 - 136</td>
+                            <td class="dark">128 - 136</td>
+                            <td class="light">136 - 148</td>
+                            <td class="dark">136 - 148</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Рост (см)</th>
+                            <td class="dark">170 - 183</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                        </tr>
+                    </table>
+                    <div class="overflow"></div>
+                </div>
+                <div class="popup_table-instructions">
+                    <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+                    <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+                </div>
+            </div>
+            <div class="table_popup__content tops-women" style="display: none;">
+                <div class="title_block">
+                    <img src="assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+                    <h3 class="popup_table-title">Таблица размеров (женский верх)</h3>
+                    <a class="close-popup-table"><img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+                </div>
+                <div class="popup__table-wrapper">
+                    <table class="popup_size-table">
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Размер</th>
+                            <td class="dark">XXS</td>
+                            <td class="light">XS</td>
+                            <td class="dark">S</td>
+                            <td class="light">M</td>
+                            <td class="dark">L</td>
+                            <td class="light">XL</td>
+                            <td class="dark">2XL</td>
+                            <td class="light">1X</td>
+                            <td class="dark">2X</td>
+                            <td class="light">3X</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват под грудью (см)</th>
+                            <td class="dark">70 - 76</td>
+                            <td class="light">76 - 83</td>
+                            <td class="dark">83 - 90</td>
+                            <td class="light">90 - 97</td>
+                            <td class="dark">97 - 104</td>
+                            <td class="light">104 - 114</td>
+                            <td class="dark">114 - 124</td>
+                            <td class="light">114 - 124</td>
+                            <td class="dark">124 - 134</td>
+                            <td class="light">124 - 134</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват талии (см)</th>
+                            <td class="dark">54 - 60</td>
+                            <td class="light">60 - 67</td>
+                            <td class="dark">67 - 74</td>
+                            <td class="light">74 - 81</td>
+                            <td class="dark">81 - 88</td>
+                            <td class="light">88 - 98</td>
+                            <td class="dark">98 - 108</td>
+                            <td class="light">104 - 114</td>
+                            <td class="dark">114 - 124</td>
+                            <td class="light">124 - 134</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват бедер (см)</th>
+                            <td class="dark">78 - 84</td>
+                            <td class="light">84 - 91</td>
+                            <td class="dark">91 - 98</td>
+                            <td class="light">98 - 105</td>
+                            <td class="dark">105 - 112</td>
+                            <td class="light">112 - 120</td>
+                            <td class="dark">120 - 128</td>
+                            <td class="light">118 - 128</td>
+                            <td class="dark">128 - 138</td>
+                            <td class="light">138 - 148</td>
+                        </tr>
+                    </table>
+                    <div class="overflow"></div>
+                </div>
+                <div class="popup_table-instructions">
+                    <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+                    <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+                </div>
+            </div>
+            <div class="table_popup__content bottoms-men" style="display: none;">
+                <div class="title_block">
+                    <img src="assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+                    <h3 class="popup_table-title">Таблица размеров (мужские брюки и шорты)</h3>
+                    <a class="close-popup-table"><img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+                </div>
+                <div class="popup__table-wrapper">
+                    <table class="popup_size-table">
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Размер</th>
+                            <td class="dark">XS</td>
+                            <td class="light">S</td>
+                            <td class="dark">S Tall</td>
+                            <td class="light">M</td>
+                            <td class="dark">M Tall</td>
+                            <td class="light">L</td>
+                            <td class="dark">L Tall</td>
+                            <td class="light">XL</td>
+                            <td class="dark">XL Tall</td>
+                            <td class="light">2Xl</td>
+                            <td class="dark">2XL Tall</td>
+                            <td class="light">3 XL</td>
+                            <td class="dark">3XL Tall</td>
+                            <td class="light">4XL</td>
+                            <td class="dark">4XL Tall</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват талии (см)</th>
+                            <td class="dark">< 73</td>
+                            <td class="light">73 - 81</td>
+                            <td class="dark">73 - 81</td>
+                            <td class="light">81 - 89</td>
+                            <td class="dark">81 - 89</td>
+                            <td class="light">89 - 97</td>
+                            <td class="dark">89 - 97</td>
+                            <td class="light">97 - 109</td>
+                            <td class="dark">97 - 109</td>
+                            <td class="light">109 - 121</td>
+                            <td class="dark">109 - 121</td>
+                            <td class="light">121 - 133</td>
+                            <td class="dark">121 - 133</td>
+                            <td class="light">133 - 145</td>
+                            <td class="dark">133 - 145</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват бедер (см)</th>
+                            <td class="dark">< 88</td>
+                            <td class="light">88 - 96</td>
+                            <td class="dark">88 - 96</td>
+                            <td class="light">96 - 104</td>
+                            <td class="dark">96 - 104</td>
+                            <td class="light">104 - 112</td>
+                            <td class="dark">104 - 112</td>
+                            <td class="light">112 - 120</td>
+                            <td class="dark">112 - 120</td>
+                            <td class="light">120 - 128</td>
+                            <td class="dark">120 - 128</td>
+                            <td class="light">128 - 136</td>
+                            <td class="dark">128 - 136</td>
+                            <td class="light">136 - 148</td>
+                            <td class="dark">136 - 148</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Длина ноги (см)</th>
+                            <td class="dark">< 82.5</td>
+                            <td class="light">82.5</td>
+                            <td class="dark">87.5</td>
+                            <td class="light">83</td>
+                            <td class="dark">88</td>
+                            <td class="light">83.5</td>
+                            <td class="dark">88.5</td>
+                            <td class="light">84</td>
+                            <td class="dark">89</td>
+                            <td class="light">84.5</td>
+                            <td class="dark">89.5</td>
+                            <td class="light">85</td>
+                            <td class="dark">90</td>
+                            <td class="light">85.5</td>
+                            <td class="dark">90.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Рост (см)</th>
+                            <td class="dark">170 - 183</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                            <td class="light">170 - 183</td>
+                            <td class="dark">183 - 196</td>
+                        </tr>
+                    </table>
+                    <div class="overflow"></div>
+                </div>
+                <div class="popup_table-instructions">
+                    <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+                    <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+                </div>
+            </div>
+            <div class="table_popup__content bottoms-women" style="display: none;">
+                <div class="title_block">
+                    <img src="assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+                    <h3 class="popup_table-title">Таблица размеров (женский низ)</h3>
+                    <a class="close-popup-table"><img src="assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+                </div>
+                <div class="popup__table-wrapper">
+                    <table class="popup_size-table">
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Размер</th>
+                            <td class="dark">XXS</td>
+                            <td class="light">XS</td>
+                            <td class="dark">S</td>
+                            <td class="light">M</td>
+                            <td class="dark">L</td>
+                            <td class="light">XL</td>
+                            <td class="dark">2XL</td>
+                            <td class="light">1X</td>
+                            <td class="dark">2X</td>
+                            <td class="light">3X</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват талии (см)</th>
+                            <td class="dark">54 - 60</td>
+                            <td class="light">60 - 67</td>
+                            <td class="dark">67 - 74</td>
+                            <td class="light">74 - 81</td>
+                            <td class="dark">81 - 88</td>
+                            <td class="light">88 - 98</td>
+                            <td class="dark">98 - 108</td>
+                            <td class="light">104 - 114</td>
+                            <td class="dark">114 - 124</td>
+                            <td class="light">124 - 134</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Обхват бедер (см)</th>
+                            <td class="dark">78 - 84</td>
+                            <td class="light">84 - 91</td>
+                            <td class="dark">91 - 98</td>
+                            <td class="light">98 - 105</td>
+                            <td class="dark">105 - 112</td>
+                            <td class="light">112 - 120</td>
+                            <td class="dark">120 - 128</td>
+                            <td class="light">118 - 128</td>
+                            <td class="dark">128 - 138</td>
+                            <td class="light">138 - 148</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="light popup_size-table__head">Рост (см)</th>
+                            <td class="dark">163 - 173</td>
+                            <td class="light">163 - 173</td>
+                            <td class="dark">163 - 173</td>
+                            <td class="light">163 - 173</td>
+                            <td class="dark">163 - 173</td>
+                            <td class="light">163 - 173</td>
+                            <td class="dark">163 - 173</td>
+                            <td class="light">163 - 173</td>
+                            <td class="dark">163 - 173</td>
+                            <td class="light">163 - 173</td>
+                        </tr>
+                    </table>
+                    <div class="overflow"></div>
+                </div>
+                <div class="popup_table-instructions">
+                    <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+                    <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/minified/swiper.min.js"></script>
+    <script src="assets/js/minified/swiper-sliders.min.js"></script>
+    <script src="assets/js/minified/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/minified/SmoothScroll.min.js"></script>
+    <script src="assets/js/minified/common.min.js"></script>
+    <script src="assets/js/minified/product.min.js"></script>
+</body>
+</html>

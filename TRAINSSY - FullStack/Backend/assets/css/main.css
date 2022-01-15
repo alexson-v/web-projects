@@ -1,0 +1,556 @@
+.offer .container-fluid {
+    padding: 0;
+    position: relative;
+}
+.slider-offer-img {
+    width: 100%;
+    height: 593px;
+    overflow: hidden;
+    position: relative;
+}
+.slider-offer-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 2;
+}
+.slider-offer-img .slider-offer-img__slide {
+    height: 100%;
+    overflow: hidden;
+}
+.slider-offer-img .slider-offer-img__bg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.slider-offer-img__pagination {
+    bottom: 12% !important;
+    flex: 0 0 0 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-offer-img__pagination .swiper-pagination-bullet {
+    width: 65px;
+    height: 7px;
+    border-radius: 0;
+    background-color: #fff;
+    margin: 0 15px 0 15px !important;
+    transition: 2s;
+}
+.slider-offer-img__pagination .swiper-pagination-bullet:first-child {
+    margin-left: 0;
+}
+.slider-offer-img__pagination .swiper-pagination-bullet:last-child {
+    margin-right: 0;
+}
+.slider-offer-text {
+    position: absolute;
+    top: 20%;
+    z-index: 3;
+    width: 100%;
+}
+.slider-offer-text__slide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.slider-offer-text__content {
+    text-align: center;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0 10px 0 10px;
+}
+.slider-offer-text__slide h3 {
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.offer-text__slide-highlighter {
+    font-weight: 900;
+    font-size: 27px;
+}
+section.medium-banners {
+    margin-top: 50px;
+}
+section.medium-banners .loop {
+    display: flex;
+    flex-flow: row wrap;
+}
+section.medium-banners .loop a.medium-banner {
+    display: block;
+    width: 545px;
+    height: 545px;
+    margin: 20px 20px 0 0;
+}
+section.medium-banners .loop a.medium-banner:nth-child(2n) {
+    margin-right: 0;
+}
+section.medium-banners .loop a.medium-banner img {
+    width: 545px;
+    height: 545px;
+    border-radius: 11px;
+}
+section.big-top-banner {
+    margin-top: 70px;
+}
+a.big-banner {
+    display: block;
+    width: 1110px;
+    height: 545px;
+}
+a.big-banner div {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+}
+section.big-bottom-banner {
+    margin-top: 120px;
+}
+section.small-banners {
+    margin-top: 70px;
+}
+section.small-banners .loop {
+    display: flex;
+    flex-flow: row wrap;
+}
+section.small-banners a.small-banner {
+    display: block;
+    width: 355px;
+    height: 355px;
+    margin: 0 20px 0 0;
+}
+section.small-banners a.small-banner:nth-child(3n) {
+    margin-right: 0;
+}
+section.small-banners a.small-banner img {
+    width: 355px;
+    height: 355px;
+    border-radius: 11px;
+}
+.descr-section {
+    margin-top: 70px;
+}
+.form_wrapper {
+    display: flex;
+}
+.section-title.descr_header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.descr-section .text-part p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.descr-section p strong {
+    font-weight: 600;
+}
+.btn.instagram {
+    width: 100%;
+    height: 50px;
+    background: #373737;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 11px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn.instagram:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid black;
+}
+.descr-section .descr-wrapper {
+    display: flex;
+}
+.descr-section .text-part {
+    width: 100%;
+}
+.descr-section .side-image {
+    width: 530px;
+    height: 456px;
+}
+section.brands {
+    margin-top: 70px;
+}
+section.brands .logos-wrapper {
+    flex-flow: row wrap;
+}
+section.brands .logos-wrapper img {
+    margin: 0 52px 0 52px;
+}
+section.brands .logos-wrapper img:first-child {
+    width: 170px;
+    height: 128px;
+}
+section.brands .logos-wrapper img:nth-child(2) {
+    width: 169px;
+    height: 58px;
+}
+section.brands .logos-wrapper img:nth-child(3) {
+    width: 171px;
+    height: 160px;
+}
+section.brands .logos-wrapper img:nth-child(4) {
+    width: 170px;
+    height: 90px;
+}
+
+@media screen and (max-width: 1199px) {
+    .slider-offer-img {
+        height: 49.42vw;
+    }
+    .slider-offer-text__content h1 {
+        font-size: 4vw;
+        margin: 1.58vw 0 1.58vw 0;
+    }
+    .slider-offer-text__content h2 {
+        font-size: 2.67vw;
+    }
+    .slider-offer-text__slide h3 {
+        margin-bottom: 2.92vw;
+    }
+    .slider-offer-text__slide h3,
+    .slider-offer-text__slide .offer-text__slide-highlighter {
+        font-size: 2.25vw;
+    }
+    .slider-offer-text__slide .btn {
+        width: 22.25vw;
+        height: 4.58vw;
+        font-size: 1.33vw;
+        padding: 1.33vw;
+    }
+    .slider-offer-img__pagination .swiper-pagination-bullet {
+        width: 5.42vw;
+        height: 0.58vw;
+        margin: 0 1.25vw 0 1.25vw !important;
+    }
+    section.medium-banners {
+        margin-top: 30px;
+    }
+    section.medium-banners .loop a.medium-banner,
+    section.medium-banners .loop a.medium-banner img {
+        width: 455px;
+        height: 455px;
+    }
+    section.big-top-banner {
+        margin-top: 50px;
+    }
+    a.big-banner {
+        width: 930px;
+    }
+    section.new-products {
+        margin-top: 40px;
+    }
+    section.big-bottom-banner {
+        margin-top: 100px;
+    }
+    section.brands .logos-wrapper img {
+        margin: 0 29.5px 0 29.5px;
+    }
+    section.small-banners {
+        margin-top: 50px;
+    }
+    section.small-banners a.small-banner,
+    section.small-banners a.small-banner img {
+        width: 296px;
+        height: 296px;
+    }
+    .descr-section {
+        margin-top: 50px;
+    }
+    .brands_under {
+        margin-top: 2.25vw;
+    }
+}
+@media screen and (max-width: 991px) {
+    section.medium-banners {
+        margin-top: 35px;
+    }
+    section.medium-banners .loop a.medium-banner {
+        width: 337px;
+        height: 337px;
+        margin: 15px 15px 0 0;
+    }
+    section.medium-banners .loop a.medium-banner img {
+        width: 337px;
+        height: 337px;
+    }
+    a.big-banner {
+        width: 690px;
+        height: 450px;
+    }
+    section.small-banners a.small-banner,
+    section.small-banners a.small-banner img {
+        width: 335px;
+        height: 335px;
+    }
+    section.small-banners a.small-banner:nth-child(2) {
+        margin-right: 0;
+    }
+    section.small-banners a.small-banner:nth-child(3) {
+        display: none;
+    }
+    .descr-section .side-image {
+        display: none;
+    }
+    section.brands .logos-wrapper img {
+        width: 140px !important;
+        height: auto !important;
+        margin: 0 15px 0 15px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .slider-offer-img {
+        height: 75vw;
+    }
+    .slider-offer-text__content h1 {
+        font-size: 5.45vw;
+        margin: 2.16vw 0 2.16vw 0;
+    }
+    .slider-offer-text__content h2 {
+        font-size: 3.98vw;
+    }
+    .slider-offer-text__slide h3 {
+        margin-bottom: 3.98vw;
+    }
+    .slider-offer-text__slide h3,
+    .slider-offer-text__slide .offer-text__slide-highlighter {
+        font-size: 3.07vw;
+    }
+    .slider-offer-text__slide .btn {
+        width: 30.34vw;
+        height: 6.25vw;
+        font-size: 1.82vw;
+        padding: 1.7vw;
+    }
+    .slider-offer-img__pagination .swiper-pagination-bullet {
+        width: 7.39vw;
+        height: 0.80vw;
+        margin: 0 1.70vw 0 1.70vw !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .slider-offer-img {
+        height: 85vw;
+    }
+    .slider-offer-text__content h1 {
+        font-size: 6.25vw;
+        margin: 2.47vw 0 2.47vw 0;
+    }
+    .slider-offer-text__content h2 {
+        font-size: 4.17vw;
+    }
+    .slider-offer-text__slide h3 {
+        margin-bottom: 4.56vw;
+    }
+    .slider-offer-text__slide h3,
+    .slider-offer-text__slide .offer-text__slide-highlighter {
+        font-size: 3.52vw;
+    }
+    .slider-offer-text__slide .btn {
+        width: 34.77vw;
+        height: 7.16vw;
+        font-size: 2.08vw;
+        padding: 2vw;
+    }
+    .slider-offer-img__pagination .swiper-pagination-bullet {
+        width: 8.46vw;
+        height: 0.91vw;
+        margin: 0 1.95vw 0 1.95vw !important;
+    }
+    section.medium-banners {
+        margin-top: 0;
+    }
+    section.medium-banners .loop {
+        display: block;
+    }
+    section.medium-banners .loop a.medium-banner {
+        width: 100%;
+        height: auto;
+        margin: 40px 0 0 0;
+    }
+    section.medium-banners .loop a.medium-banner img {
+        width: 100%;
+        height: auto;
+    }
+    section.big-top-banner {
+        margin-top: 40px;
+    }
+    a.big-banner {
+        width: 510px;
+        height: 550px;
+    }
+    section.small-banners {
+        margin-top: 40px;
+    }
+    section.small-banners a.small-banner {
+        width: 100%;
+        height: auto;
+        margin: 40px 0 0 0;
+    }
+    section.small-banners a.small-banner img {
+        width: 100%;
+        height: auto;
+    }
+    section.small-banners a.small-banner:first-child {
+        margin-top: 0;
+    }
+    section.small-banners a.small-banner:nth-child(3) {
+        display: block;
+    }
+    section.new-products h4 {
+        margin-top: 0;
+    }
+    .descr-section {
+        margin-top: 40px;
+    }
+    section.brands .logos-wrapper img {
+        width: 95px !important;
+        margin: 0 15px 0 15px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .slider-offer-img {
+        height: 135vw;
+    }
+    .slider-offer-text {
+        top: 23vw;
+    }
+    .slider-offer-text__content h1 {
+        font-size: 6.4vw;
+        margin: 3.30vw 0 3.30vw 0;
+    }
+    .slider-offer-text__content h2 {
+        font-size: 4.17vw;
+    }
+    .slider-offer-text__slide h3 {
+        margin-bottom: 6.08vw;
+    }
+    .slider-offer-text__slide h3,
+    .slider-offer-text__slide .offer-text__slide-highlighter {
+        font-size: 4.69vw;
+    }
+    .slider-offer-text__slide .btn {
+        width: 46.35vw;
+        height: 9.55vw;
+        font-size: 2.78vw;
+        padding: 2.7vw;
+    }
+    .slider-offer-img__pagination .swiper-pagination-bullet {
+        width: 11.28vw;
+        height: 1.22vw;
+        margin: 0 2.60vw 0 2.60vw !important;
+    }
+    section.medium-banners {
+        margin-top: 10px;
+    }
+    section.big-top-banner {
+        margin-top: 50px;
+    }
+    section.new-products {
+        margin-top: 50px;
+    }
+    section.new-products .swiper-container.slider-new-products .swiper-wrapper {
+        height: 86%;
+    }
+    section.big-bottom-banner {
+        margin-top: 50px;
+    }
+    a.big-banner {
+        width: 100%;
+        height: 510px;
+    }
+    section.small-banners {
+        margin-top: 50px;
+    }
+    .section-title.descr_header {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    .descr-section {
+        margin-top: 50px;
+    }
+    .descr-section .text-part p {
+        font-size: 15px;
+        margin-bottom: 12.5px;
+    }
+    .btn.instagram {
+        height: 45px;
+        font-size: 15px;
+        margin-top: 12.5px;
+    }
+    section.brands .logos-wrapper img {
+        width: 29.57vw !important;
+        margin: 0 8.2vw 0 8.2vw;
+    }
+    section.brands .logos-wrapper img.third,
+    section.brands .logos-wrapper img.fourth {
+        margin-top: 8.2vw;
+    }
+}
+@media screen and (max-width: 424px) {
+    section.medium-banners {
+        margin-top: 4.28vw;
+    }
+    section.medium-banners .loop a.medium-banner {
+        margin-top: 2.36vw;
+    }
+    section.big-top-banner {
+        margin-top: 2.36vw;
+    }
+    a.big-banner {
+        height: 117.92vw;
+    }
+    section.new-products {
+        margin-top: 9vw;
+    }
+    section.big-bottom-banner {
+        margin-top: 9vw;
+    }
+    section.small-banners {
+        margin-top: 2.36vw;
+    }
+    section.small-banners a.small-banner {
+        margin-top: 2.36vw;
+    }
+    .descr-section {
+        margin-top: 11.79vw;
+    }
+    .section-title.descr_header {
+        font-size: 20px !important;
+        margin-bottom: 20px;
+    }
+    .descr-section .text-part p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .btn.instagram {
+        margin-top: 10px;
+    }
+    .brands {
+        margin-top: 50px;
+    }
+    section.brands .logos-wrapper img {
+        width: 28.57vw !important;
+        margin: 0 8vw 0 8vw;
+    }
+    section.brands .logos-wrapper img.third,
+    section.brands .logos-wrapper img.fourth {
+        margin-top: 8vw;
+    }
+}

@@ -1,0 +1,262 @@
+<div class="table_popup__content shoes-unisex active">
+    <div class="title_block">
+        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/size-icon.svg" class="popup_table-icon" alt="icon">
+        <h3 class="popup_table-title">Таблица размеров (обувь)</h3>
+        <a class="close-popup-table"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/common-icons_svg/close-hamburger-button.svg" class="search-popup__close-button" alt="Закрыть"></a>
+    </div>
+    <div class="popup__table-wrapper">
+        <table class="popup_size-table">
+            <tr>
+                <th scope="row" class="light popup_size-table__head">EU</th>
+                <td class="dark">35.5</td>
+                <td class="light">36</td>
+                <td class="dark">36.5</td>
+                <td class="light">37.5</td>
+                <td class="dark">38</td>
+                <td class="light">38.5</td>
+                <td class="dark">39</td>
+                <td class="light">40</td>
+                <td class="dark">40.5</td>
+                <td class="light">41</td>
+                <td class="dark">42</td>
+                <td class="light">42.5</td>
+                <td class="dark">43</td>
+                <td class="light">44</td>
+                <td class="dark">44.5</td>
+                <td class="light">45</td>
+                <td class="dark">45.5</td>
+                <td class="light">46</td>
+                <td class="dark">47</td>
+                <td class="light">47.5</td>
+                <td class="dark">48</td>
+                <td class="light">48.5</td>
+                <td class="dark">49</td>
+                <td class="light">49.5</td>
+                <td class="dark">50</td>
+                <td class="light">50.5</td>
+                <td class="dark">51</td>
+                <td class="light">51.5</td>
+                <td class="dark">52</td>
+                <td class="light">52.5</td>
+                <td class="dark">53</td>
+                <td class="light">53.5</td>
+                <td class="dark">54</td>
+                <td class="light">54.5</td>
+                <td class="dark">55</td>
+                <td class="light">55.5</td>
+                <td class="dark">56</td>
+                <td class="light">56.5</td>
+            </tr>
+            <tr>
+                <th scope="row" class="light popup_size-table__head">RU</th>
+                <td class="dark">34.5</td>
+                <td class="light">35</td>
+                <td class="dark">35.5</td>
+                <td class="light">36.5</td>
+                <td class="dark">37</td>
+                <td class="light">37.5</td>
+                <td class="dark">38</td>
+                <td class="light">39</td>
+                <td class="dark">39.5</td>
+                <td class="light">40</td>
+                <td class="dark">41</td>
+                <td class="light">41.5</td>
+                <td class="dark">42</td>
+                <td class="light">43</td>
+                <td class="dark">43.5</td>
+                <td class="light">44</td>
+                <td class="dark">44.5</td>
+                <td class="light">45</td>
+                <td class="dark">46</td>
+                <td class="light">46.5</td>
+                <td class="dark">47</td>
+                <td class="light">47.5</td>
+                <td class="dark">48</td>
+                <td class="light">48.5</td>
+                <td class="dark">49</td>
+                <td class="light">49.5</td>
+                <td class="dark">50</td>
+                <td class="light">50.5</td>
+                <td class="dark">51</td>
+                <td class="light">51.5</td>
+                <td class="dark">52</td>
+                <td class="light">52.5</td>
+                <td class="dark">53</td>
+                <td class="light">53.5</td>
+                <td class="dark">54</td>
+                <td class="light">54.5</td>
+                <td class="dark">55</td>
+                <td class="light">55.5</td>
+            </tr>
+            <tr>
+                <th scope="row" class="light popup_size-table__head">CM</th>
+                <td class="dark">22.5</td>
+                <td class="light">23</td>
+                <td class="dark">23.5</td>
+                <td class="light">23.5</td>
+                <td class="dark">24</td>
+                <td class="light">24</td>
+                <td class="dark">24.5</td>
+                <td class="light">25</td>
+                <td class="dark">25.5</td>
+                <td class="light">26</td>
+                <td class="dark">26.5</td>
+                <td class="light">27</td>
+                <td class="dark">27.5</td>
+                <td class="light">28</td>
+                <td class="dark">28.5</td>
+                <td class="light">29</td>
+                <td class="dark">29.5</td>
+                <td class="light">30</td>
+                <td class="dark">30.5</td>
+                <td class="light">31</td>
+                <td class="dark">31.5</td>
+                <td class="light">32</td>
+                <td class="dark">32.5</td>
+                <td class="light">33</td>
+                <td class="dark">33.5</td>
+                <td class="light">34</td>
+                <td class="dark">34.5</td>
+                <td class="light">35</td>
+                <td class="dark">35.5</td>
+                <td class="light">36</td>
+                <td class="dark">36.5</td>
+                <td class="light">37</td>
+                <td class="dark">37.5</td>
+                <td class="light">38</td>
+                <td class="dark">38.5</td>
+                <td class="light">39</td>
+                <td class="dark">39.5</td>
+                <td class="light">40</td>
+            </tr>
+            <tr>
+                <th scope="row" class="light popup_size-table__head">US - мужчины</th>
+                <td class="dark">3.5</td>
+                <td class="light">4</td>
+                <td class="dark">4.5</td>
+                <td class="light">5</td>
+                <td class="dark">5.5</td>
+                <td class="light">6</td>
+                <td class="dark">6.5</td>
+                <td class="light">7</td>
+                <td class="dark">7.5</td>
+                <td class="light">8</td>
+                <td class="dark">8.5</td>
+                <td class="light">9</td>
+                <td class="dark">9.5</td>
+                <td class="light">10</td>
+                <td class="dark">10.5</td>
+                <td class="light">11</td>
+                <td class="dark">11.5</td>
+                <td class="light">12</td>
+                <td class="dark">12.5</td>
+                <td class="light">13</td>
+                <td class="dark">13.5</td>
+                <td class="light">14</td>
+                <td class="dark">14.5</td>
+                <td class="light">15</td>
+                <td class="dark">15.5</td>
+                <td class="light">16</td>
+                <td class="dark">16.5</td>
+                <td class="light">17</td>
+                <td class="dark">17.5</td>
+                <td class="light">18</td>
+                <td class="dark">18.5</td>
+                <td class="light">19</td>
+                <td class="dark">19.5</td>
+                <td class="light">20</td>
+                <td class="dark">20.5</td>
+                <td class="light">21</td>
+                <td class="dark">21.5</td>
+                <td class="light">22</td>
+            </tr>
+            <tr>
+                <th scope="row" class="light popup_size-table__head">US - женщины</th>
+                <td class="dark">5</td>
+                <td class="light">5.5</td>
+                <td class="dark">6</td>
+                <td class="light">6.5</td>
+                <td class="dark">7</td>
+                <td class="light">7.5</td>
+                <td class="dark">8</td>
+                <td class="light">8.5</td>
+                <td class="dark">9</td>
+                <td class="light">9.5</td>
+                <td class="dark">10</td>
+                <td class="light">10.5</td>
+                <td class="dark">11</td>
+                <td class="light">11.5</td>
+                <td class="dark">12</td>
+                <td class="light">12.5</td>
+                <td class="dark">13</td>
+                <td class="light">13.5</td>
+                <td class="dark">14</td>
+                <td class="light">14.5</td>
+                <td class="dark">15</td>
+                <td class="light">15.5</td>
+                <td class="dark">16</td>
+                <td class="light">16.5</td>
+                <td class="dark">17</td>
+                <td class="light">17.5</td>
+                <td class="dark">18</td>
+                <td class="light">18.5</td>
+                <td class="dark">19</td>
+                <td class="light">19.5</td>
+                <td class="dark">20</td>
+                <td class="light">20.5</td>
+                <td class="dark">21</td>
+                <td class="light">21.5</td>
+                <td class="dark">22</td>
+                <td class="light">22.5</td>
+                <td class="dark">23</td>
+                <td class="light">23.5</td>
+            </tr>
+            <tr>
+                <th scope="row" class="light popup_size-table__head">UK</th>
+                <td class="dark">3</td>
+                <td class="light">3.5</td>
+                <td class="dark">4</td>
+                <td class="light">4.5</td>
+                <td class="dark">5</td>
+                <td class="light">5.5</td>
+                <td class="dark">6</td>
+                <td class="light">6</td>
+                <td class="dark">6.5</td>
+                <td class="light">7</td>
+                <td class="dark">7.5</td>
+                <td class="light">8</td>
+                <td class="dark">8.5</td>
+                <td class="light">9</td>
+                <td class="dark">9.5</td>
+                <td class="light">10</td>
+                <td class="dark">10.5</td>
+                <td class="light">11</td>
+                <td class="dark">11.5</td>
+                <td class="light">12</td>
+                <td class="dark">12.5</td>
+                <td class="light">13</td>
+                <td class="dark">13.5</td>
+                <td class="light">14</td>
+                <td class="dark">14.5</td>
+                <td class="light">15</td>
+                <td class="dark">15.5</td>
+                <td class="light">16</td>
+                <td class="dark">16.5</td>
+                <td class="light">17</td>
+                <td class="dark">17.5</td>
+                <td class="light">18</td>
+                <td class="dark">18.5</td>
+                <td class="light">19</td>
+                <td class="dark">19.5</td>
+                <td class="light">20</td>
+                <td class="dark">20.5</td>
+                <td class="light">21</td>
+            </tr>
+        </table>
+        <div class="overflow"></div>
+    </div>
+    <div class="popup_table-instructions">
+        <p class="popup_table-instructions__par">Крутите ползунок вбок, чтобы смотреть другие размеры.</p>
+        <p class="popup_table-instructions__par">Отнеситесь ответственно к подбору своего размера, ведь это в Ваших интересах.</p>
+    </div>
+</div>
