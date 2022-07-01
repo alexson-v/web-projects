@@ -1,0 +1,110 @@
+.contacts {
+    padding: 120px 0 90px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 400px 585px;
+        justify-content: space-between;
+        padding: 0 52px 0 35px;
+    }
+    &__photo {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__descr {
+        padding-top: 8px;
+        .divider {
+            margin: 0;
+        }
+    }
+    &__title {
+        position: relative;
+        padding-left: 11px;
+        @include before_circle;
+    }
+    &__subtitle {
+        margin-top: 6px;
+    }
+    &__text, &__social {
+        margin-top: 20px;
+    }
+    &__link {
+        margin-right: 25px;
+        &:hover {
+            text-decoration: none;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__form {
+        display: grid;
+        grid-template: 45px 190px 45px / repeat(2, 280px);
+        row-gap: 35px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__label {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: 12px;
+        height: 18px;
+        margin: 0;
+        padding: 0 8px;
+        background-color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__input {
+        position: relative;
+        input {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    &__textarea {
+        position: relative;
+        grid-column: 1 / 3;
+        textarea {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            font-size: 12px;
+            resize: none;
+        }
+    }
+    .error {
+        display: block;
+        font-size: 11px;
+        color: red;
+        margin-right: 10px;
+    }
+    &__triggers {
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 35px;
+    }
+    &__policy {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        line-height: 14px;
+        input {
+            margin-right: 10px;
+        }
+    }
+    &__btn {
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 21px;
+    }
+}

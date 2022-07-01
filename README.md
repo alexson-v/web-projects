@@ -22,3 +22,19 @@ Backend description:
 3. All website content is logically structured and divided into thematic folders and corresponding files with their subsequent connection using PHP functions
 4. Сustom fields made with a plugin "Carbon Fields" in order to provide the owner with the ability to change the content of the pages of the website
 5. Optimized
+
+
+Portfolio - my personal website for presenting my services. You can scroll it by next link: https://eng.vladyslav-frontend.com/
+
+The website contains one main page (it is probably Landing page website) and 6 subdomens. One of those has English localization for my foreign visitors and other 5 are for my portfolio projects.
+
+Description:
+
+1. Based on CSS Grid
+2. Layout creation is provided with methodology "BEM"
+3. Bootstrap reboot
+4. All files (including html, css, and js, images) are minified and compressed via Gulp
+5. Development was followed with preprocessor SCSS
+6. Used both native JavaScript and jQuery
+7. PHPmailer is used to send forms to my personal email address
+8. Poppins as the main font (400, 700 fw)
