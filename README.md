@@ -38,3 +38,17 @@ Description:
 6. Used both native JavaScript and jQuery
 7. PHPmailer is used to send forms to my personal email address
 8. Poppins as the main font (400, 700 fw)
+
+
+Minibus Fundraising - landing page for fundraising for a minibus for the armed forces of Ukraine. Initiated by ukrainian volunteer organization "Eqiup Our Men".
+
+Description:
+1. Was developed in 7 hours
+2. Based on CSS Flex technology
+3. Layout creation is provided with methodology "BEM"
+4. SCSS
+5. Bootstrap reboot
+6. Some Animate CSS
+7. All files (including html, css, and js, images) are minified and compressed via Gulp
+8. Native JavaScript just for module windows
+9. Roboto as the main font (300, 400, 600, 700, 900 fw)

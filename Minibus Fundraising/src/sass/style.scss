@@ -1,0 +1,63 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate.min';
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC700;
+    color: $main-color;
+}
+
+body.blocked {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 324px;
+}
+
+.section-title {
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+@import 'blocks/offer';
+@import 'blocks/warriors';
+@import 'blocks/unlock';
+@import 'blocks/resume';
+@import 'blocks/collected';
+@import 'blocks/join';
+@import 'blocks/social';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'blocks/media';

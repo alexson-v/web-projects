@@ -1,0 +1,39 @@
+.resume {
+    margin-top: 170px;
+    text-align: center;
+    &__skills {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 31px 34px;
+        background-color: #fff;
+        width: 32.5%;
+        border-radius: 18px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 112px;
+            height: 112px;
+            background-color: #FFC700;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            span {
+                font-size: 60px;
+            }
+        }
+        &-descr {
+            margin-top: 26px;
+            font-size: 35px;
+            line-height: 41px;
+            font-weight: 400;
+        }
+    }
+}

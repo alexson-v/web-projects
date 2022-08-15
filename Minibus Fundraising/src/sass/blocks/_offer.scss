@@ -1,0 +1,66 @@
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 40px 0;
+    &__head {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamburger {
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        cursor: pointer;
+        span {
+            display: block;
+            width: 50px;
+            height: 5px;
+            background: #151812;
+        }
+        span.long {
+            width: 60px;
+        }
+    }
+    &__intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            max-width: 516px;
+        }
+    }
+    &__text {
+        width: 690px;
+        margin-top: -20px;
+    }
+    &__title {
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 900;
+    }
+    &__subtitle {
+        margin-top: 16px;
+        font-size: 50px;
+        line-height: 59px;
+        font-weight: 300;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__tip {
+        text-align: center;
+        --animate-duration: 15s;
+        div {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        img {
+            width: 64px;
+            margin-top: 15px;
+        }
+    }
+}
