@@ -1,0 +1,35 @@
+.about {
+    padding: 64px 0;
+    background: #fff;
+    &__par {
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        &:first-child {
+            margin-top: 64px;
+        }
+        p {
+            display: block;
+            &:nth-child(2), &:nth-child(3) {
+                margin-top: 15px;
+            }
+        }
+    }
+    &__container {
+        width: 49%;
+        font-size: 18px;
+        line-height: 27px;
+        &:nth-child(2n) {
+            margin-left: 117px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: 324px;
+        }
+        img.about__png {
+            width: 230px;
+        }
+    }
+}

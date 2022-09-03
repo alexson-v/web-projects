@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('e-Ukraine.eot');
+    src: local('e-Ukraine Bold'), local('e-Ukraine-Bold'),
+        url('../fonts/e-Ukraine-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/e-Ukraine-Bold.woff2') format('woff2'),
+        url('../fonts/e-Ukraine-Bold.woff') format('woff'),
+        url('../fonts/e-Ukraine-Bold.ttf') format('truetype'),
+        url('../fonts/e-Ukraine-Bold.svg#e-Ukraine-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('e-Ukraine.eot');
+    src: local('e-Ukraine Medium'), local('e-Ukraine-Medium'),
+        url('../fonts/e-Ukraine-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/e-Ukraine-Medium.woff2') format('woff2'),
+        url('../fonts/e-Ukraine-Medium.woff') format('woff'),
+        url('../fonts/e-Ukraine-Medium.ttf') format('truetype'),
+        url('../fonts/e-Ukraine-Medium.svg#e-Ukraine-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('e-Ukraine-Regular.eot');
+    src: local('e-Ukraine'), local('e-Ukraine-Regular'),
+        url('../fonts/e-Ukraine-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/e-Ukraine-Regular.woff2') format('woff2'),
+        url('../fonts/e-Ukraine-Regular.woff') format('woff'),
+        url('../fonts/e-Ukraine-Regular.ttf') format('truetype'),
+        url('../fonts/e-Ukraine-Regular.svg#e-Ukraine-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

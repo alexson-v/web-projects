@@ -40,7 +40,8 @@ Description:
 8. Poppins as the main font (400, 700 fw)
 
 
-Minibus Fundraising - landing page for fundraising for a minibus for the armed forces of Ukraine. Initiated by ukrainian volunteer organization "Eqiup Our Men".
+Minibus Fundraising - landing page for fundraising for a minibus for the armed forces of Ukraine. Initiated by ukrainian volunteer organization "Eqiup Your Men".
+It is a real project, which you can see in working condition by this link: https://minibus-fundraising.vladyslav-frontend.com/
 
 Description:
 1. Was developed in 7 hours
@@ -52,3 +53,20 @@ Description:
 7. All files (including html, css, and js, images) are minified and compressed via Gulp
 8. Native JavaScript just for module windows
 9. Roboto as the main font (300, 400, 600, 700, 900 fw)
+
+EquipYourMen - landing page for Public organization "Equip Your Men". You can scroll it by next link: https://www.equipyourmen.org/en/
+
+Description:
+1. My own design layout from Figma
+2. Based on CSS Flex technology
+3. Layout creation is provided with methodology "BEM"
+4. SCSS
+5. Bootstrap reboot
+6. Some Animate CSS
+7. Native JavaScript & jQuery
+8. All files (including html, css, js, images and icons) are minified and compressed via Gulp
+9. e-Ukraine is used as the main font of varying degrees of boldness
+10. CMS Wordpress
+11. Plugin "Carbon Fields" for custom fields creation
+12. Forms are based on PHP Mailer
+13. Super optimized

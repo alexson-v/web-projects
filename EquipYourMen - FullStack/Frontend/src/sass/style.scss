@@ -1,0 +1,95 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate.min';
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'e-Ukraine', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFC700;
+    color: $main-color;
+}
+
+body.blocked {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 209px;
+    height: 65px;
+}
+
+.page-up {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    width: 70px;
+    height: 70px;
+    img {
+        width: 100%;
+    }
+    background: rgba(35, 31, 32, 0.75);
+    padding: 19px;
+    border-radius: 14px;
+}
+
+.hamburger {
+    display: none;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 40px;
+        height: 4px;
+        background: #151812;
+    }
+    span.long {
+        width: 50px;
+    }
+}
+
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/support';
+@import 'blocks/values';
+@import 'blocks/team';
+@import 'blocks/projects';
+@import 'blocks/feedback';
+@import 'blocks/footer';
+@import 'blocks/file';
+@import 'blocks/thankyou';
+@import 'blocks/menu';
+@import 'blocks/media';

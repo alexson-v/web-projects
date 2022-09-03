@@ -1,0 +1,50 @@
+.support {
+    padding: 64px 0;
+    &__subtitle {
+        display: block;
+        max-width: 1134px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 32px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+    &__card {
+        background: #fff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        max-width: 370px;
+        min-height: 425px;
+        font-size: 16px;
+        line-height: 27px;
+        padding: 25px;
+        &:nth-child(2) {
+            max-width: 425px;
+        }
+        span {
+            font-weight: 500;
+        }
+    }
+    &__sign {
+        font-size: 58px;
+        line-height: 68px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__curr {
+        line-height: 19px;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 20px;
+    }
+    &__par {
+        margin-top: 10px;
+    }
+}
